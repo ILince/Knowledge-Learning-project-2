@@ -57,10 +57,6 @@
                     <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/doctrinemigrations.html" class="">DoctrineMigrations</a>
-</h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/app.html" class="">App</a>
 </h4>
     <ul class="phpdocumentor-list">
@@ -89,17 +85,17 @@
                 
             </li>
                     <li>
-                <a href="namespaces/app-service.html" class="">Service</a>
-                
-            </li>
-                    <li>
                 <a href="namespaces/app-tests.html" class="">Tests</a>
                 
             </li>
             </ul>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/container7xixz3r.html" class="">Container7XIxz3r</a>
+    <a href="namespaces/container8p5ohzu.html" class="">Container8p5OhZu</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/containerssmxduz.html" class="">ContainerSsMxDuz</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -159,7 +155,7 @@
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/containerhkhaf1d.html" class="">ContainerHkHaF1D</a>
+    <a href="namespaces/container5qhs8s3.html" class="">Container5qhS8S3</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -750,16 +746,6 @@
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
 </h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="packages/App.html" class="">App</a>
-</h4>
-    <ul class="phpdocumentor-list">
-                    <li>
-                <a href="packages/App-Tests.html" class="">Tests</a>
-                
-            </li>
-            </ul>
 
                         </section>
             
@@ -2957,24 +2943,28 @@ exactly $count times.</dd>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Tests the cancel page in case of payment cancellation.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testCheckoutPageWithItems">testCheckoutPageWithItems()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Tests the checkout page when there are items in the cart.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testCreateCheckoutSession">testCreateCheckoutSession()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Tests creating a checkout session for payment.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testSuccessPage">testSuccessPage()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Tests the success page after a successful payment.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PHPUnit-Framework-TestCase.html#method_throwException">throwException()</a>
@@ -3240,8 +3230,9 @@ resets the locale to its original value after the test is run.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/App-Tests-Controller-StripePaymentControllerTest.html#method_getLessonRepository">getLessonRepository()</a>
     <span>
-                                &nbsp;: mixed    </span>
+                                &nbsp;: <a href="classes/Doctrine-Persistence-ObjectRepository.html"><abbr title="\Doctrine\Persistence\ObjectRepository">ObjectRepository</abbr></a>    </span>
 </dt>
+<dd>Helper method to retrieve the Lesson repository.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/Symfony-Bundle-FrameworkBundle-Test-MailerAssertionsTrait.html#method_getMessageMailerEvents">getMessageMailerEvents()</a>
@@ -3265,8 +3256,9 @@ resets the locale to its original value after the test is run.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/App-Tests-Controller-StripePaymentControllerTest.html#method_getUserRepository">getUserRepository()</a>
     <span>
-                                &nbsp;: mixed    </span>
+                                &nbsp;: <a href="classes/Doctrine-Persistence-ObjectRepository.html"><abbr title="\Doctrine\Persistence\ObjectRepository">ObjectRepository</abbr></a>    </span>
 </dt>
+<dd>Helper method to retrieve the User repository.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PHPUnit-Framework-TestCase.html#method_handleDependencies">handleDependencies()</a>
@@ -23414,11 +23406,12 @@ during normalization.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/StripePaymentControllerTest.php"><a href="files/tests-stripepaymentcontrollertest.html"><abbr title="tests/StripePaymentControllerTest.php">StripePaymentControllerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Tests the cancel page in case of payment cancellation.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testCancelPage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -23448,11 +23441,12 @@ during normalization.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/StripePaymentControllerTest.php"><a href="files/tests-stripepaymentcontrollertest.html"><abbr title="tests/StripePaymentControllerTest.php">StripePaymentControllerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Tests the checkout page when there are items in the cart.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testCheckoutPageWithItems</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -23482,11 +23476,12 @@ during normalization.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/StripePaymentControllerTest.php"><a href="files/tests-stripepaymentcontrollertest.html"><abbr title="tests/StripePaymentControllerTest.php">StripePaymentControllerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Tests creating a checkout session for payment.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testCreateCheckoutSession</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -23516,11 +23511,12 @@ during normalization.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/StripePaymentControllerTest.php"><a href="files/tests-stripepaymentcontrollertest.html"><abbr title="tests/StripePaymentControllerTest.php">StripePaymentControllerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Tests the success page after a successful payment.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testSuccessPage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -26143,14 +26139,15 @@ resets the locale to its original value after the test is run.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/StripePaymentControllerTest.php"><a href="files/tests-stripepaymentcontrollertest.html"><abbr title="tests/StripePaymentControllerTest.php">StripePaymentControllerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Helper method to retrieve the Lesson repository.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">getLessonRepository</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">getLessonRepository</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Doctrine-Persistence-ObjectRepository.html"><abbr title="\Doctrine\Persistence\ObjectRepository">ObjectRepository</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -26161,7 +26158,11 @@ resets the locale to its original value after the test is run.</p>
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Doctrine-Persistence-ObjectRepository.html"><abbr title="\Doctrine\Persistence\ObjectRepository">ObjectRepository</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -26292,14 +26293,15 @@ resets the locale to its original value after the test is run.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/StripePaymentControllerTest.php"><a href="files/tests-stripepaymentcontrollertest.html"><abbr title="tests/StripePaymentControllerTest.php">StripePaymentControllerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">114</span>
+    <span class="phpdocumentor-element-found-in__line">142</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Helper method to retrieve the User repository.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">getUserRepository</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">getUserRepository</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Doctrine-Persistence-ObjectRepository.html"><abbr title="\Doctrine\Persistence\ObjectRepository">ObjectRepository</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -26310,7 +26312,11 @@ resets the locale to its original value after the test is run.</p>
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/Doctrine-Persistence-ObjectRepository.html"><abbr title="\Doctrine\Persistence\ObjectRepository">ObjectRepository</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element

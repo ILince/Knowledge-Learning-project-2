@@ -57,10 +57,6 @@
                     <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/doctrinemigrations.html" class="">DoctrineMigrations</a>
-</h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/app.html" class="">App</a>
 </h4>
     <ul class="phpdocumentor-list">
@@ -89,17 +85,17 @@
                 
             </li>
                     <li>
-                <a href="namespaces/app-service.html" class="">Service</a>
-                
-            </li>
-                    <li>
                 <a href="namespaces/app-tests.html" class="">Tests</a>
                 
             </li>
             </ul>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/container7xixz3r.html" class="">Container7XIxz3r</a>
+    <a href="namespaces/container8p5ohzu.html" class="">Container8p5OhZu</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/containerssmxduz.html" class="">ContainerSsMxDuz</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -159,7 +155,7 @@
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/containerhkhaf1d.html" class="">ContainerHkHaF1D</a>
+    <a href="namespaces/container5qhs8s3.html" class="">Container5qhS8S3</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -751,16 +747,6 @@
     <a href="packages/Application.html" class="">Application</a>
 </h4>
 
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="packages/App.html" class="">App</a>
-</h4>
-    <ul class="phpdocumentor-list">
-                    <li>
-                <a href="packages/App-Tests.html" class="">Tests</a>
-                
-            </li>
-            </ul>
-
                         </section>
             
     <section class="phpdocumentor-sidebar__category -reports">
@@ -870,12 +856,14 @@ by such instances, optionally keyed by the service names used internally.</dd>
     <span>
                                 &nbsp;: <a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a>    </span>
 </dt>
+<dd>Handles the login functionality.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/App-Controller-SecurityController.html#method_logout">logout()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Handles user logout.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Symfony-Bundle-FrameworkBundle-Controller-AbstractController.html#method_setContainer">setContainer()</a>
@@ -1194,11 +1182,12 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/SecurityController.php"><a href="files/src-controller-securitycontroller.html"><abbr title="src/Controller/SecurityController.php">SecurityController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Handles the login functionality.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">login</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-Security-Http-Authentication-AuthenticationUtils.html"><abbr title="\Symfony\Component\Security\Http\Authentication\AuthenticationUtils">AuthenticationUtils</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$authenticationUtils</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span></code>
@@ -1206,7 +1195,9 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>Displays the login form and shows any authentication errors.</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1214,7 +1205,9 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-Security-Http-Authentication-AuthenticationUtils.html"><abbr title="\Symfony\Component\Security\Http\Authentication\AuthenticationUtils">AuthenticationUtils</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The service to manage login-related functionality</p>
+</section>
+
             </dd>
             </dl>
 
@@ -1242,6 +1235,10 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The rendered login page</p>
+</section>
+
             </section>
 
 </article>
@@ -1259,11 +1256,12 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/SecurityController.php"><a href="files/src-controller-securitycontroller.html"><abbr title="src/Controller/SecurityController.php">SecurityController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Handles user logout.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">logout</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -1274,6 +1272,21 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     
     
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/App-Controller-SecurityController.html#method_logout#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\LogicException">LogicException</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
 
     
     <section class="phpdocumentor-attributes">

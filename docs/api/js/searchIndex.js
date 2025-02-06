@@ -1,186 +1,6 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140001",
-            "name": "Version20250110140001",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250110140001.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140001\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140001.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140001\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140001.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140001\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140001.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140203",
-            "name": "Version20250110140203",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250110140203.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140203\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140203.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140203\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140203.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140203\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140203.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140338",
-            "name": "Version20250110140338",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250110140338.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140338\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140338.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140338\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140338.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140338\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140338.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140552",
-            "name": "Version20250110140552",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250110140552.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140552\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140552.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140552\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140552.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110140552\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110140552.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110141046",
-            "name": "Version20250110141046",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250110141046.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110141046\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110141046.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110141046\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110141046.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110141046\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110141046.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110142151",
-            "name": "Version20250110142151",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250110142151.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110142151\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110142151.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110142151\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110142151.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250110142151\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250110142151.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134431",
-            "name": "Version20250113134431",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250113134431.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134431\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250113134431.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134431\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250113134431.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134431\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250113134431.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134831",
-            "name": "Version20250113134831",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250113134831.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134831\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250113134831.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134831\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250113134831.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250113134831\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250113134831.html#method_down"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250130152116",
-            "name": "Version20250130152116",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/DoctrineMigrations-Version20250130152116.html"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250130152116\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250130152116.html#method_getDescription"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250130152116\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250130152116.html#method_up"
-        },                {
-            "fqsen": "\\DoctrineMigrations\\Version20250130152116\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/DoctrineMigrations-Version20250130152116.html#method_down"
-        },                {
             "fqsen": "\\App\\Security\\EmailVerifier",
             "name": "EmailVerifier",
             "summary": "",
@@ -193,12 +13,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Security\\EmailVerifier\u003A\u003AsendEmailConfirmation\u0028\u0029",
             "name": "sendEmailConfirmation",
-            "summary": "",
+            "summary": "Send\u0020an\u0020email\u0020confirmation\u0020to\u0020the\u0020user\u0020with\u0020a\u0020signed\u0020URL\u0020for\u0020email\u0020verification.",
             "url": "classes/App-Security-EmailVerifier.html#method_sendEmailConfirmation"
         },                {
             "fqsen": "\\App\\Security\\EmailVerifier\u003A\u003AhandleEmailConfirmation\u0028\u0029",
             "name": "handleEmailConfirmation",
-            "summary": "",
+            "summary": "Handle\u0020the\u0020email\u0020confirmation\u0020process.",
             "url": "classes/App-Security-EmailVerifier.html#method_handleEmailConfirmation"
         },                {
             "fqsen": "\\App\\Security\\EmailVerifier\u003A\u003A\u0024verifyEmailHelper",
@@ -233,22 +53,22 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\Admin\\CourseController\u003A\u003Anew\u0028\u0029",
             "name": "new",
-            "summary": "",
+            "summary": "Creates\u0020a\u0020new\u0020course.",
             "url": "classes/App-Controller-Admin-CourseController.html#method_new"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\CourseController\u003A\u003Ashow\u0028\u0029",
             "name": "show",
-            "summary": "",
+            "summary": "Displays\u0020a\u0020specific\u0020course.",
             "url": "classes/App-Controller-Admin-CourseController.html#method_show"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\CourseController\u003A\u003Aedit\u0028\u0029",
             "name": "edit",
-            "summary": "",
+            "summary": "Edits\u0020an\u0020existing\u0020course.",
             "url": "classes/App-Controller-Admin-CourseController.html#method_edit"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\CourseController\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "",
+            "summary": "Deletes\u0020a\u0020course.",
             "url": "classes/App-Controller-Admin-CourseController.html#method_delete"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\LessonController",
@@ -258,27 +78,27 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\Admin\\LessonController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Displays\u0020the\u0020list\u0020of\u0020lessons.",
             "url": "classes/App-Controller-Admin-LessonController.html#method_index"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\LessonController\u003A\u003Anew\u0028\u0029",
             "name": "new",
-            "summary": "",
+            "summary": "Creates\u0020a\u0020new\u0020lesson.",
             "url": "classes/App-Controller-Admin-LessonController.html#method_new"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\LessonController\u003A\u003Ashow\u0028\u0029",
             "name": "show",
-            "summary": "",
+            "summary": "Displays\u0020a\u0020specific\u0020lesson.",
             "url": "classes/App-Controller-Admin-LessonController.html#method_show"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\LessonController\u003A\u003Aedit\u0028\u0029",
             "name": "edit",
-            "summary": "",
+            "summary": "Edits\u0020an\u0020existing\u0020lesson.",
             "url": "classes/App-Controller-Admin-LessonController.html#method_edit"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\LessonController\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "",
+            "summary": "Deletes\u0020a\u0020lesson.",
             "url": "classes/App-Controller-Admin-LessonController.html#method_delete"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\ThemeController",
@@ -288,27 +108,27 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\Admin\\ThemeController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Displays\u0020a\u0020list\u0020of\u0020all\u0020themes.",
             "url": "classes/App-Controller-Admin-ThemeController.html#method_index"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\ThemeController\u003A\u003Anew\u0028\u0029",
             "name": "new",
-            "summary": "",
+            "summary": "Handles\u0020the\u0020creation\u0020of\u0020a\u0020new\u0020theme.",
             "url": "classes/App-Controller-Admin-ThemeController.html#method_new"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\ThemeController\u003A\u003Ashow\u0028\u0029",
             "name": "show",
-            "summary": "",
+            "summary": "Displays\u0020details\u0020of\u0020a\u0020specific\u0020theme.",
             "url": "classes/App-Controller-Admin-ThemeController.html#method_show"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\ThemeController\u003A\u003Aedit\u0028\u0029",
             "name": "edit",
-            "summary": "",
+            "summary": "Handles\u0020editing\u0020of\u0020an\u0020existing\u0020theme.",
             "url": "classes/App-Controller-Admin-ThemeController.html#method_edit"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\ThemeController\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "",
+            "summary": "Deletes\u0020a\u0020theme.",
             "url": "classes/App-Controller-Admin-ThemeController.html#method_delete"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\UserController",
@@ -318,47 +138,47 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\Admin\\UserController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Lists\u0020all\u0020users.",
             "url": "classes/App-Controller-Admin-UserController.html#method_index"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\UserController\u003A\u003Anew\u0028\u0029",
             "name": "new",
-            "summary": "",
+            "summary": "Creates\u0020a\u0020new\u0020user.",
             "url": "classes/App-Controller-Admin-UserController.html#method_new"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\UserController\u003A\u003Ashow\u0028\u0029",
             "name": "show",
-            "summary": "",
+            "summary": "Shows\u0020a\u0020specific\u0020user.",
             "url": "classes/App-Controller-Admin-UserController.html#method_show"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\UserController\u003A\u003Aedit\u0028\u0029",
             "name": "edit",
-            "summary": "",
+            "summary": "Edits\u0020an\u0020existing\u0020user.",
             "url": "classes/App-Controller-Admin-UserController.html#method_edit"
         },                {
             "fqsen": "\\App\\Controller\\Admin\\UserController\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "",
+            "summary": "Deletes\u0020a\u0020user.",
             "url": "classes/App-Controller-Admin-UserController.html#method_delete"
         },                {
             "fqsen": "\\App\\Controller\\CartController",
             "name": "CartController",
-            "summary": "Provides\u0020shortcuts\u0020for\u0020HTTP\u002Drelated\u0020features\u0020in\u0020controllers.",
+            "summary": "Controller\u0020to\u0020handle\u0020shopping\u0020cart\u0020functionalities.",
             "url": "classes/App-Controller-CartController.html"
         },                {
             "fqsen": "\\App\\Controller\\CartController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Displays\u0020the\u0020cart\u0020contents\u0020along\u0020with\u0020the\u0020total\u0020price.",
             "url": "classes/App-Controller-CartController.html#method_index"
         },                {
             "fqsen": "\\App\\Controller\\CartController\u003A\u003AaddToCart\u0028\u0029",
             "name": "addToCart",
-            "summary": "",
+            "summary": "Adds\u0020an\u0020item\u0020\u0028lesson\u0020or\u0020course\u0029\u0020to\u0020the\u0020cart.",
             "url": "classes/App-Controller-CartController.html#method_addToCart"
         },                {
             "fqsen": "\\App\\Controller\\CartController\u003A\u003Aremove\u0028\u0029",
             "name": "remove",
-            "summary": "",
+            "summary": "Removes\u0020an\u0020item\u0020from\u0020the\u0020cart.",
             "url": "classes/App-Controller-CartController.html#method_remove"
         },                {
             "fqsen": "\\App\\Controller\\CertificationController",
@@ -373,7 +193,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\CertificationController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Display\u0020the\u0020certifications\u0020page.",
             "url": "classes/App-Controller-CertificationController.html#method_index"
         },                {
             "fqsen": "\\App\\Controller\\CertificationController\u003A\u003A\u0024entityManager",
@@ -388,37 +208,37 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\CourseController\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Displays\u0020the\u0020list\u0020of\u0020courses\u0020filtered\u0020by\u0020theme.",
             "url": "classes/App-Controller-CourseController.html#method_index"
         },                {
             "fqsen": "\\App\\Controller\\CourseController\u003A\u003AcourseDetails\u0028\u0029",
             "name": "courseDetails",
-            "summary": "",
+            "summary": "Displays\u0020the\u0020details\u0020of\u0020a\u0020course.",
             "url": "classes/App-Controller-CourseController.html#method_courseDetails"
         },                {
             "fqsen": "\\App\\Controller\\CourseController\u003A\u003AlessonDetails\u0028\u0029",
             "name": "lessonDetails",
-            "summary": "",
+            "summary": "Displays\u0020the\u0020details\u0020of\u0020a\u0020lesson.",
             "url": "classes/App-Controller-CourseController.html#method_lessonDetails"
-        },                {
-            "fqsen": "\\App\\Controller\\CourseController\u003A\u003AisCourseInCart\u0028\u0029",
-            "name": "isCourseInCart",
-            "summary": "",
-            "url": "classes/App-Controller-CourseController.html#method_isCourseInCart"
         },                {
             "fqsen": "\\App\\Controller\\CourseController\u003A\u003AvalidateLesson\u0028\u0029",
             "name": "validateLesson",
-            "summary": "",
+            "summary": "Validates\u0020a\u0020lesson\u0020and\u0020checks\u0020if\u0020the\u0020user\u0020qualifies\u0020for\u0020a\u0020certification.",
             "url": "classes/App-Controller-CourseController.html#method_validateLesson"
         },                {
             "fqsen": "\\App\\Controller\\CourseController\u003A\u003AmyCourses\u0028\u0029",
             "name": "myCourses",
-            "summary": "",
+            "summary": "Displays\u0020the\u0020user\u0027s\u0020purchased\u0020courses.",
             "url": "classes/App-Controller-CourseController.html#method_myCourses"
+        },                {
+            "fqsen": "\\App\\Controller\\CourseController\u003A\u003AisCourseInCart\u0028\u0029",
+            "name": "isCourseInCart",
+            "summary": "Checks\u0020if\u0020a\u0020course\u0020is\u0020already\u0020in\u0020the\u0020cart.",
+            "url": "classes/App-Controller-CourseController.html#method_isCourseInCart"
         },                {
             "fqsen": "\\App\\Controller\\HomeController",
             "name": "HomeController",
-            "summary": "Provides\u0020shortcuts\u0020for\u0020HTTP\u002Drelated\u0020features\u0020in\u0020controllers.",
+            "summary": "This\u0020controller\u0020is\u0020used\u0020to\u0020display\u0020the\u0020theme\u0020widget\u0020on\u0020the\u0020homepage.",
             "url": "classes/App-Controller-HomeController.html"
         },                {
             "fqsen": "\\App\\Controller\\HomeController\u003A\u003Aindex\u0028\u0029",
@@ -438,12 +258,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\RegistrationController\u003A\u003Aregister\u0028\u0029",
             "name": "register",
-            "summary": "",
+            "summary": "Handles\u0020user\u0020registration.\u0020Validates\u0020the\u0020form,\u0020hashes\u0020the\u0020password,\nsaves\u0020the\u0020user\u0020to\u0020the\u0020database,\u0020sends\u0020the\u0020confirmation\u0020email,\nand\u0020redirects\u0020the\u0020user\u0020to\u0020the\u0020login\u0020page.",
             "url": "classes/App-Controller-RegistrationController.html#method_register"
         },                {
             "fqsen": "\\App\\Controller\\RegistrationController\u003A\u003AverifyUserEmail\u0028\u0029",
             "name": "verifyUserEmail",
-            "summary": "",
+            "summary": "Verifies\u0020the\u0020user\u0027s\u0020email\u0020address\u0020when\u0020the\u0020confirmation\u0020link\u0020is\u0020clicked.",
             "url": "classes/App-Controller-RegistrationController.html#method_verifyUserEmail"
         },                {
             "fqsen": "\\App\\Controller\\RegistrationController\u003A\u003A\u0024emailVerifier",
@@ -463,12 +283,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\SecurityController\u003A\u003Alogin\u0028\u0029",
             "name": "login",
-            "summary": "",
+            "summary": "Handles\u0020the\u0020login\u0020functionality.",
             "url": "classes/App-Controller-SecurityController.html#method_login"
         },                {
             "fqsen": "\\App\\Controller\\SecurityController\u003A\u003Alogout\u0028\u0029",
             "name": "logout",
-            "summary": "",
+            "summary": "Handles\u0020user\u0020logout.",
             "url": "classes/App-Controller-SecurityController.html#method_logout"
         },                {
             "fqsen": "\\App\\Controller\\StripePaymentController",
@@ -483,17 +303,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\StripePaymentController\u003A\u003AcheckoutPage\u0028\u0029",
             "name": "checkoutPage",
-            "summary": "",
+            "summary": "Checkout\u0020page\u0020where\u0020the\u0020user\u0020can\u0020see\u0020their\u0020cart\u0020before\u0020proceeding\u0020to\u0020payment.",
             "url": "classes/App-Controller-StripePaymentController.html#method_checkoutPage"
         },                {
             "fqsen": "\\App\\Controller\\StripePaymentController\u003A\u003AgetCartItems\u0028\u0029",
             "name": "getCartItems",
-            "summary": "",
+            "summary": "Helper\u0020method\u0020to\u0020retrieve\u0020the\u0020detailed\u0020items\u0020in\u0020the\u0020cart\u0020\u0028lessons\u0020and\u0020courses\u0029.",
             "url": "classes/App-Controller-StripePaymentController.html#method_getCartItems"
         },                {
             "fqsen": "\\App\\Controller\\StripePaymentController\u003A\u003AcreateCheckoutSession\u0028\u0029",
             "name": "createCheckoutSession",
-            "summary": "",
+            "summary": "Creates\u0020a\u0020Stripe\u0020checkout\u0020session\u0020with\u0020the\u0020items\u0020in\u0020the\u0020cart.",
             "url": "classes/App-Controller-StripePaymentController.html#method_createCheckoutSession"
         },                {
             "fqsen": "\\App\\Controller\\StripePaymentController\u003A\u003Asuccess\u0028\u0029",
@@ -515,26 +335,6 @@ Search.appendIndex(
             "name": "lessonRepository",
             "summary": "",
             "url": "classes/App-Controller-StripePaymentController.html#property_lessonRepository"
-        },                {
-            "fqsen": "\\App\\Controller\\TestEmailController",
-            "name": "TestEmailController",
-            "summary": "Provides\u0020shortcuts\u0020for\u0020HTTP\u002Drelated\u0020features\u0020in\u0020controllers.",
-            "url": "classes/App-Controller-TestEmailController.html"
-        },                {
-            "fqsen": "\\App\\Controller\\TestEmailController\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Controller-TestEmailController.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Controller\\TestEmailController\u003A\u003AtestEmail\u0028\u0029",
-            "name": "testEmail",
-            "summary": "",
-            "url": "classes/App-Controller-TestEmailController.html#method_testEmail"
-        },                {
-            "fqsen": "\\App\\Controller\\TestEmailController\u003A\u003A\u0024mailer",
-            "name": "mailer",
-            "summary": "",
-            "url": "classes/App-Controller-TestEmailController.html#property_mailer"
         },                {
             "fqsen": "\\App\\DataFixtures\\AppFixtures",
             "name": "AppFixtures",
@@ -558,7 +358,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Certification",
             "name": "Certification",
-            "summary": "",
+            "summary": "Ths\u0020entity\u0020represents\u0020a\u0020certification\u0020earned\u0020by\u0020a\u0020user\u0020for\u0020completing\u0020all\u0020lessons\/coures\u0020in\u0020a\u0020theme.",
             "url": "classes/App-Entity-Certification.html"
         },                {
             "fqsen": "\\App\\Entity\\Certification\u003A\u003A__construct\u0028\u0029",
@@ -643,17 +443,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Certification\u003A\u003A\u0024user",
             "name": "user",
-            "summary": "",
+            "summary": "The\u0020user\u0020who\u0020earned\u0020the\u0020certification.",
             "url": "classes/App-Entity-Certification.html#property_user"
         },                {
             "fqsen": "\\App\\Entity\\Certification\u003A\u003A\u0024theme",
             "name": "theme",
-            "summary": "",
+            "summary": "The\u0020theme\u0020for\u0020which\u0020the\u0020certification\u0020was\u0020awarded.",
             "url": "classes/App-Entity-Certification.html#property_theme"
         },                {
             "fqsen": "\\App\\Entity\\Certification\u003A\u003A\u0024obtainedAt",
             "name": "obtainedAt",
-            "summary": "",
+            "summary": "The\u0020date\u0020when\u0020the\u0020certification\u0020was\u0020obtained.",
             "url": "classes/App-Entity-Certification.html#property_obtainedAt"
         },                {
             "fqsen": "\\App\\Entity\\Certification\u003A\u003A\u0024createdAt",
@@ -678,7 +478,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Course",
             "name": "Course",
-            "summary": "",
+            "summary": "This\u0020entity\u0020represents\u0020courses\u0020within\u0020a\u0020theme.",
             "url": "classes/App-Entity-Course.html"
         },                {
             "fqsen": "\\App\\Entity\\Course\u003A\u003A__construct\u0028\u0029",
@@ -798,12 +598,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Course\u003A\u003A\u0024theme",
             "name": "theme",
-            "summary": "",
+            "summary": "The\u0020theme\u0020this\u0020course\u0020belongs\u0020to.",
             "url": "classes/App-Entity-Course.html#property_theme"
         },                {
             "fqsen": "\\App\\Entity\\Course\u003A\u003A\u0024lessons",
             "name": "lessons",
-            "summary": "",
+            "summary": "Lessons\u0020associated\u0020with\u0020this\u0020course.",
             "url": "classes/App-Entity-Course.html#property_lessons"
         },                {
             "fqsen": "\\App\\Entity\\Course\u003A\u003A\u0024createdAt",
@@ -828,7 +628,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Lesson",
             "name": "Lesson",
-            "summary": "",
+            "summary": "This\u0020entity\u0020represents\u0020lessons\u0020of\u0020courses.",
             "url": "classes/App-Entity-Lesson.html"
         },                {
             "fqsen": "\\App\\Entity\\Lesson\u003A\u003A__construct\u0028\u0029",
@@ -880,6 +680,11 @@ Search.appendIndex(
             "name": "getUsers",
             "summary": "",
             "url": "classes/App-Entity-Lesson.html#method_getUsers"
+        },                {
+            "fqsen": "\\App\\Entity\\Lesson\u003A\u003AremoveUser\u0028\u0029",
+            "name": "removeUser",
+            "summary": "",
+            "url": "classes/App-Entity-Lesson.html#method_removeUser"
         },                {
             "fqsen": "\\App\\Entity\\Lesson\u003A\u003AgetType\u0028\u0029",
             "name": "getType",
@@ -943,12 +748,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Lesson\u003A\u003A\u0024course",
             "name": "course",
-            "summary": "",
+            "summary": "The\u0020course\u0020associated\u0020with\u0020this\u0020lesson.",
             "url": "classes/App-Entity-Lesson.html#property_course"
         },                {
             "fqsen": "\\App\\Entity\\Lesson\u003A\u003A\u0024users",
             "name": "users",
-            "summary": "",
+            "summary": "Users\u0020associated\u0020with\u0020this\u0020lesson.",
             "url": "classes/App-Entity-Lesson.html#property_users"
         },                {
             "fqsen": "\\App\\Entity\\Lesson\u003A\u003A\u0024createdAt",
@@ -973,7 +778,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\LessonProgress",
             "name": "LessonProgress",
-            "summary": "",
+            "summary": "This\u0020entity\u0020tracks\u0020user\u0027s\u0020progress\u0020in\u0020a\u0020lesson.",
             "url": "classes/App-Entity-LessonProgress.html"
         },                {
             "fqsen": "\\App\\Entity\\LessonProgress\u003A\u003A__construct\u0028\u0029",
@@ -1043,17 +848,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\LessonProgress\u003A\u003A\u0024user",
             "name": "user",
-            "summary": "",
+            "summary": "The\u0020user\u0020associated\u0020with\u0020this\u0020progress.",
             "url": "classes/App-Entity-LessonProgress.html#property_user"
         },                {
             "fqsen": "\\App\\Entity\\LessonProgress\u003A\u003A\u0024lesson",
             "name": "lesson",
-            "summary": "",
+            "summary": "The\u0020lesson\u0020associated\u0020with\u0020this\u0020progress.",
             "url": "classes/App-Entity-LessonProgress.html#property_lesson"
         },                {
             "fqsen": "\\App\\Entity\\LessonProgress\u003A\u003A\u0024validated",
             "name": "validated",
-            "summary": "",
+            "summary": "Indicates\u0020whether\u0020the\u0020lesson\u0020has\u0020been\u0020validated\u0020by\u0020the\u0020user.",
             "url": "classes/App-Entity-LessonProgress.html#property_validated"
         },                {
             "fqsen": "\\App\\Entity\\LessonProgress\u003A\u003A\u0024createdAt",
@@ -1078,7 +883,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Theme",
             "name": "Theme",
-            "summary": "",
+            "summary": "This\u0020entity\u0020represents\u0020theme\u0020that\u0020groups\u0020related\u0020courses.",
             "url": "classes/App-Entity-Theme.html"
         },                {
             "fqsen": "\\App\\Entity\\Theme\u003A\u003A__construct\u0028\u0029",
@@ -1168,7 +973,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Theme\u003A\u003A\u0024courses",
             "name": "courses",
-            "summary": "",
+            "summary": "Courses\u0020associated\u0020with\u0020this\u0020theme.",
             "url": "classes/App-Entity-Theme.html#property_courses"
         },                {
             "fqsen": "\\App\\Entity\\Theme\u003A\u003A\u0024createdAt",
@@ -1593,17 +1398,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Security\\AppCustomAuthenticator\u003A\u003Aauthenticate\u0028\u0029",
             "name": "authenticate",
-            "summary": "Create\u0020a\u0020passport\u0020for\u0020the\u0020current\u0020request.",
+            "summary": "Handles\u0020the\u0020authentication\u0020process\u0020by\u0020extracting\u0020credentials\u0020from\u0020the\u0020login\u0020form",
             "url": "classes/App-Security-AppCustomAuthenticator.html#method_authenticate"
         },                {
             "fqsen": "\\App\\Security\\AppCustomAuthenticator\u003A\u003AonAuthenticationSuccess\u0028\u0029",
             "name": "onAuthenticationSuccess",
-            "summary": "Called\u0020when\u0020authentication\u0020executed\u0020and\u0020was\u0020successful\u0021",
+            "summary": "Handles\u0020the\u0020response\u0020upon\u0020successful\u0020authentication",
             "url": "classes/App-Security-AppCustomAuthenticator.html#method_onAuthenticationSuccess"
         },                {
             "fqsen": "\\App\\Security\\AppCustomAuthenticator\u003A\u003AgetLoginUrl\u0028\u0029",
             "name": "getLoginUrl",
-            "summary": "Return\u0020the\u0020URL\u0020to\u0020the\u0020login\u0020page.",
+            "summary": "Retrieves\u0020the\u0020login\u0020URL\u0020if\u0020authentication\u0020is\u0020required",
             "url": "classes/App-Security-AppCustomAuthenticator.html#method_getLoginUrl"
         },                {
             "fqsen": "\\App\\Security\\AppCustomAuthenticator\u003A\u003ALOGIN_ROUTE",
@@ -1626,139 +1431,134 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/App-Security-EmailVerifier.html#property_logger"
         },                {
-            "fqsen": "\\App\\Service\\CertificationService",
-            "name": "CertificationService",
-            "summary": "",
-            "url": "classes/App-Service-CertificationService.html"
-        },                {
-            "fqsen": "\\App\\Service\\CertificationService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/App-Service-CertificationService.html#method___construct"
-        },                {
-            "fqsen": "\\App\\Service\\CertificationService\u003A\u003AvalidateLesson\u0028\u0029",
-            "name": "validateLesson",
-            "summary": "",
-            "url": "classes/App-Service-CertificationService.html#method_validateLesson"
-        },                {
-            "fqsen": "\\App\\Service\\CertificationService\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/App-Service-CertificationService.html#property_entityManager"
-        },                {
             "fqsen": "\\App\\Tests\\Entity\\CourseTest",
             "name": "CourseTest",
-            "summary": "KernelTestCase\u0020is\u0020the\u0020base\u0020class\u0020for\u0020tests\u0020needing\u0020a\u0020Kernel.",
+            "summary": "",
             "url": "classes/App-Tests-Entity-CourseTest.html"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "This\u0020method\u0020is\u0020called\u0020before\u0020each\u0020test.",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_setUp"
-        },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestCreateCourse\u0028\u0029",
-            "name": "testCreateCourse",
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestSetName\u0028\u0029",
+            "name": "testSetName",
             "summary": "",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_testCreateCourse"
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testSetName"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestThemeAssociation\u0028\u0029",
-            "name": "testThemeAssociation",
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestSetPrice\u0028\u0029",
+            "name": "testSetPrice",
             "summary": "",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_testThemeAssociation"
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testSetPrice"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestUserAssociations\u0028\u0029",
-            "name": "testUserAssociations",
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestSetTheme\u0028\u0029",
+            "name": "testSetTheme",
             "summary": "",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_testUserAssociations"
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testSetTheme"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestUpdateCourse\u0028\u0029",
-            "name": "testUpdateCourse",
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestAddLesson\u0028\u0029",
+            "name": "testAddLesson",
             "summary": "",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_testUpdateCourse"
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testAddLesson"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestDeleteCourse\u0028\u0029",
-            "name": "testDeleteCourse",
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestRemoveLesson\u0028\u0029",
+            "name": "testRemoveLesson",
             "summary": "",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_testDeleteCourse"
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testRemoveLesson"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "This\u0020method\u0020is\u0020called\u0020after\u0020each\u0020test.",
-            "url": "classes/App-Tests-Entity-CourseTest.html#method_tearDown"
-        },                {
-            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestGetType\u0028\u0029",
+            "name": "testGetType",
             "summary": "",
-            "url": "classes/App-Tests-Entity-CourseTest.html#property_entityManager"
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testGetType"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestCreatedAndUpdatedAt\u0028\u0029",
+            "name": "testCreatedAndUpdatedAt",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testCreatedAndUpdatedAt"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestSetCreatedBy\u0028\u0029",
+            "name": "testSetCreatedBy",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testSetCreatedBy"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\CourseTest\u003A\u003AtestSetUpdatedBy\u0028\u0029",
+            "name": "testSetUpdatedBy",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-CourseTest.html#method_testSetUpdatedBy"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\LessonTest",
             "name": "LessonTest",
-            "summary": "KernelTestCase\u0020is\u0020the\u0020base\u0020class\u0020for\u0020tests\u0020needing\u0020a\u0020Kernel.",
+            "summary": "",
             "url": "classes/App-Tests-Entity-LessonTest.html"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "This\u0020method\u0020is\u0020called\u0020before\u0020each\u0020test.",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_setUp"
-        },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestCreateLesson\u0028\u0029",
-            "name": "testCreateLesson",
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetName\u0028\u0029",
+            "name": "testSetName",
             "summary": "",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_testCreateLesson"
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetName"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestCourseAssociation\u0028\u0029",
-            "name": "testCourseAssociation",
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetPrice\u0028\u0029",
+            "name": "testSetPrice",
             "summary": "",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_testCourseAssociation"
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetPrice"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetCourse\u0028\u0029",
+            "name": "testSetCourse",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetCourse"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestAddUser\u0028\u0029",
             "name": "testAddUser",
             "summary": "",
             "url": "classes/App-Tests-Entity-LessonTest.html#method_testAddUser"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestUserAssociations\u0028\u0029",
-            "name": "testUserAssociations",
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetCreatedAt\u0028\u0029",
+            "name": "testSetCreatedAt",
             "summary": "",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_testUserAssociations"
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetCreatedAt"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestUpdateLesson\u0028\u0029",
-            "name": "testUpdateLesson",
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetUpdatedAt\u0028\u0029",
+            "name": "testSetUpdatedAt",
             "summary": "",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_testUpdateLesson"
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetUpdatedAt"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestAddAndRemoveLesson\u0028\u0029",
-            "name": "testAddAndRemoveLesson",
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetCreatedBy\u0028\u0029",
+            "name": "testSetCreatedBy",
             "summary": "",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_testAddAndRemoveLesson"
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetCreatedBy"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "This\u0020method\u0020is\u0020called\u0020after\u0020each\u0020test.",
-            "url": "classes/App-Tests-Entity-LessonTest.html#method_tearDown"
-        },                {
-            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestSetUpdatedBy\u0028\u0029",
+            "name": "testSetUpdatedBy",
             "summary": "",
-            "url": "classes/App-Tests-Entity-LessonTest.html#property_entityManager"
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testSetUpdatedBy"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestGetType\u0028\u0029",
+            "name": "testGetType",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testGetType"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestAddLessonToCourse\u0028\u0029",
+            "name": "testAddLessonToCourse",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testAddLessonToCourse"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\LessonTest\u003A\u003AtestRemoveUser\u0028\u0029",
+            "name": "testRemoveUser",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-LessonTest.html#method_testRemoveUser"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\RegistrationControllerTest",
             "name": "RegistrationControllerTest",
-            "summary": "WebTestCase\u0020is\u0020the\u0020base\u0020class\u0020for\u0020functional\u0020tests.",
+            "summary": "Tests\u0020the\u0020RegistrationController\u0020functionality.",
             "url": "classes/App-Tests-Controller-RegistrationControllerTest.html"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\RegistrationControllerTest\u003A\u003AtestRegisterPage\u0028\u0029",
             "name": "testRegisterPage",
-            "summary": "",
+            "summary": "Tests\u0020that\u0020the\u0020registration\u0020page\u0020loads\u0020correctly.",
             "url": "classes/App-Tests-Controller-RegistrationControllerTest.html#method_testRegisterPage"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\RegistrationControllerTest\u003A\u003AtestRegisterSuccess\u0028\u0029",
             "name": "testRegisterSuccess",
-            "summary": "",
+            "summary": "Tests\u0020the\u0020registration\u0020process\u0020with\u0020valid\u0020data\u0020and\u0020verifies\u0020redirection.",
             "url": "classes/App-Tests-Controller-RegistrationControllerTest.html#method_testRegisterSuccess"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\RegistrationControllerTest\u003A\u003AtestRegisterFailure\u0028\u0029",
             "name": "testRegisterFailure",
-            "summary": "",
+            "summary": "Tests\u0020the\u0020registration\u0020process\u0020with\u0020invalid\u0020data\u0020and\u0020verifies\u0020validation\u0020errors.",
             "url": "classes/App-Tests-Controller-RegistrationControllerTest.html#method_testRegisterFailure"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\SecurityControllerTest",
@@ -1768,22 +1568,22 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Tests\\Controller\\SecurityControllerTest\u003A\u003AtestLoginPage\u0028\u0029",
             "name": "testLoginPage",
-            "summary": "",
+            "summary": "Tests\u0020the\u0020login\u0020page\u0020is\u0020accessible\u0020and\u0020displays\u0020the\u0020correct\u0020title.",
             "url": "classes/App-Tests-Controller-SecurityControllerTest.html#method_testLoginPage"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\SecurityControllerTest\u003A\u003AtestLoginSuccess\u0028\u0029",
             "name": "testLoginSuccess",
-            "summary": "",
+            "summary": "Tests\u0020successful\u0020login\u0020with\u0020valid\u0020credentials.",
             "url": "classes/App-Tests-Controller-SecurityControllerTest.html#method_testLoginSuccess"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\SecurityControllerTest\u003A\u003AtestLoginFailure\u0028\u0029",
             "name": "testLoginFailure",
-            "summary": "",
+            "summary": "Tests\u0020login\u0020failure\u0020with\u0020invalid\u0020credentials.",
             "url": "classes/App-Tests-Controller-SecurityControllerTest.html#method_testLoginFailure"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\SecurityControllerTest\u003A\u003AcreateUser\u0028\u0029",
             "name": "createUser",
-            "summary": "",
+            "summary": "Helper\u0020method\u0020to\u0020create\u0020a\u0020user\u0020with\u0020given\u0020credentials.",
             "url": "classes/App-Tests-Controller-SecurityControllerTest.html#method_createUser"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest",
@@ -1793,82 +1593,82 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest\u003A\u003AtestCheckoutPageWithItems\u0028\u0029",
             "name": "testCheckoutPageWithItems",
-            "summary": "",
+            "summary": "Tests\u0020the\u0020checkout\u0020page\u0020when\u0020there\u0020are\u0020items\u0020in\u0020the\u0020cart.",
             "url": "classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testCheckoutPageWithItems"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest\u003A\u003AtestCreateCheckoutSession\u0028\u0029",
             "name": "testCreateCheckoutSession",
-            "summary": "",
+            "summary": "Tests\u0020creating\u0020a\u0020checkout\u0020session\u0020for\u0020payment.",
             "url": "classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testCreateCheckoutSession"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest\u003A\u003AtestSuccessPage\u0028\u0029",
             "name": "testSuccessPage",
-            "summary": "",
+            "summary": "Tests\u0020the\u0020success\u0020page\u0020after\u0020a\u0020successful\u0020payment.",
             "url": "classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testSuccessPage"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest\u003A\u003AtestCancelPage\u0028\u0029",
             "name": "testCancelPage",
-            "summary": "",
+            "summary": "Tests\u0020the\u0020cancel\u0020page\u0020in\u0020case\u0020of\u0020payment\u0020cancellation.",
             "url": "classes/App-Tests-Controller-StripePaymentControllerTest.html#method_testCancelPage"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest\u003A\u003AgetUserRepository\u0028\u0029",
             "name": "getUserRepository",
-            "summary": "",
+            "summary": "Helper\u0020method\u0020to\u0020retrieve\u0020the\u0020User\u0020repository.",
             "url": "classes/App-Tests-Controller-StripePaymentControllerTest.html#method_getUserRepository"
         },                {
             "fqsen": "\\App\\Tests\\Controller\\StripePaymentControllerTest\u003A\u003AgetLessonRepository\u0028\u0029",
             "name": "getLessonRepository",
-            "summary": "",
+            "summary": "Helper\u0020method\u0020to\u0020retrieve\u0020the\u0020Lesson\u0020repository.",
             "url": "classes/App-Tests-Controller-StripePaymentControllerTest.html#method_getLessonRepository"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\ThemeTest",
             "name": "ThemeTest",
-            "summary": "KernelTestCase\u0020is\u0020the\u0020base\u0020class\u0020for\u0020tests\u0020needing\u0020a\u0020Kernel.",
+            "summary": "",
             "url": "classes/App-Tests-Entity-ThemeTest.html"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "This\u0020method\u0020is\u0020called\u0020before\u0020each\u0020test.",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_setUp"
-        },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestCreateTheme\u0028\u0029",
-            "name": "testCreateTheme",
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestSetName\u0028\u0029",
+            "name": "testSetName",
             "summary": "",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testCreateTheme"
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testSetName"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestAddAndRemoveCourse\u0028\u0029",
-            "name": "testAddAndRemoveCourse",
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestAddCourse\u0028\u0029",
+            "name": "testAddCourse",
             "summary": "",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testAddAndRemoveCourse"
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testAddCourse"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestUserAssociations\u0028\u0029",
-            "name": "testUserAssociations",
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestRemoveCourse\u0028\u0029",
+            "name": "testRemoveCourse",
             "summary": "",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testUserAssociations"
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testRemoveCourse"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestModifyTheme\u0028\u0029",
-            "name": "testModifyTheme",
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestCreatedAndUpdatedAt\u0028\u0029",
+            "name": "testCreatedAndUpdatedAt",
             "summary": "",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testModifyTheme"
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testCreatedAndUpdatedAt"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestDeleteTheme\u0028\u0029",
-            "name": "testDeleteTheme",
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestSetCreatedBy\u0028\u0029",
+            "name": "testSetCreatedBy",
             "summary": "",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testDeleteTheme"
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testSetCreatedBy"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "This\u0020method\u0020is\u0020called\u0020after\u0020each\u0020test.",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#method_tearDown"
-        },                {
-            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestSetUpdatedBy\u0028\u0029",
+            "name": "testSetUpdatedBy",
             "summary": "",
-            "url": "classes/App-Tests-Entity-ThemeTest.html#property_entityManager"
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testSetUpdatedBy"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestGetCoursesInitiallyEmpty\u0028\u0029",
+            "name": "testGetCoursesInitiallyEmpty",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testGetCoursesInitiallyEmpty"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\ThemeTest\u003A\u003AtestId\u0028\u0029",
+            "name": "testId",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-ThemeTest.html#method_testId"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\UserTest",
             "name": "UserTest",
-            "summary": "Class\u0020UserTest",
+            "summary": "KernelTestCase\u0020is\u0020the\u0020base\u0020class\u0020for\u0020tests\u0020needing\u0020a\u0020Kernel.",
             "url": "classes/App-Tests-Entity-UserTest.html"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AsetUp\u0028\u0029",
@@ -1876,135 +1676,310 @@ Search.appendIndex(
             "summary": "This\u0020method\u0020is\u0020called\u0020before\u0020each\u0020test.",
             "url": "classes/App-Tests-Entity-UserTest.html#method_setUp"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestValidUser\u0028\u0029",
-            "name": "testValidUser",
-            "summary": "Test\u0020de\u0020la\u0020validation\u0020de\u0020l\u0027utilisateur\u0020avec\u0020des\u0020donn\u00E9es\u0020valides.",
-            "url": "classes/App-Tests-Entity-UserTest.html#method_testValidUser"
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestValidUsername\u0028\u0029",
+            "name": "testValidUsername",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testValidUsername"
         },                {
-            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestInvalidUserEmail\u0028\u0029",
-            "name": "testInvalidUserEmail",
-            "summary": "Test\u0020de\u0020la\u0020validation\u0020de\u0020l\u0027utilisateur\u0020avec\u0020un\u0020email\u0020invalide.",
-            "url": "classes/App-Tests-Entity-UserTest.html#method_testInvalidUserEmail"
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestInvalidUsernameTooLong\u0028\u0029",
+            "name": "testInvalidUsernameTooLong",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testInvalidUsernameTooLong"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestInvalidUsernameBlank\u0028\u0029",
+            "name": "testInvalidUsernameBlank",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testInvalidUsernameBlank"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestSetPassword\u0028\u0029",
+            "name": "testSetPassword",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testSetPassword"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestIsVerifiedDefault\u0028\u0029",
+            "name": "testIsVerifiedDefault",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testIsVerifiedDefault"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestSetIsVerified\u0028\u0029",
+            "name": "testSetIsVerified",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testSetIsVerified"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestValidEmail\u0028\u0029",
+            "name": "testValidEmail",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testValidEmail"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestInvalidEmail\u0028\u0029",
+            "name": "testInvalidEmail",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testInvalidEmail"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestDefaultRoleUser\u0028\u0029",
             "name": "testDefaultRoleUser",
-            "summary": "Test\u0020de\u0020l\u0027assignation\u0020du\u0020r\u00F4le\u0020par\u0020d\u00E9faut\u0020\u00E0\u0020un\u0020utilisateur.",
+            "summary": "",
             "url": "classes/App-Tests-Entity-UserTest.html#method_testDefaultRoleUser"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestRoleEscalationPrevention\u0028\u0029",
             "name": "testRoleEscalationPrevention",
-            "summary": "Test\u0020de\u0020la\u0020pr\u00E9vention\u0020de\u0020l\u0027escalade\u0020des\u0020r\u00F4les\u0020\u0028les\u0020r\u00F4les\u0020non\u0020autoris\u00E9s\u0020ne\u0020doivent\u0020pas\u0020\u00EAtre\u0020d\u00E9finis\u0029.",
+            "summary": "",
             "url": "classes/App-Tests-Entity-UserTest.html#method_testRoleEscalationPrevention"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestAddPurchasedCourse\u0028\u0029",
+            "name": "testAddPurchasedCourse",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testAddPurchasedCourse"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestDeliveryAddress\u0028\u0029",
+            "name": "testDeliveryAddress",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testDeliveryAddress"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestDeliveryAddressTooLong\u0028\u0029",
+            "name": "testDeliveryAddressTooLong",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testDeliveryAddressTooLong"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestRemovePurchasedCourse\u0028\u0029",
+            "name": "testRemovePurchasedCourse",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testRemovePurchasedCourse"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestAddLesson\u0028\u0029",
+            "name": "testAddLesson",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testAddLesson"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestRemoveLesson\u0028\u0029",
+            "name": "testRemoveLesson",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testRemoveLesson"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestAddCertification\u0028\u0029",
+            "name": "testAddCertification",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testAddCertification"
+        },                {
+            "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003AtestRemoveCertification\u0028\u0029",
+            "name": "testRemoveCertification",
+            "summary": "",
+            "url": "classes/App-Tests-Entity-UserTest.html#method_testRemoveCertification"
         },                {
             "fqsen": "\\App\\Tests\\Entity\\UserTest\u003A\u003A\u0024validator",
             "name": "validator",
             "summary": "",
             "url": "classes/App-Tests-Entity-UserTest.html#property_validator"
         },                {
-            "fqsen": "\\Container7XIxz3r\\EntityManagerGhost614a58f",
+            "fqsen": "\\Container8p5OhZu\\EntityManagerGhost614a58f",
             "name": "EntityManagerGhost614a58f",
             "summary": "The\u0020EntityManager\u0020is\u0020the\u0020central\u0020access\u0020point\u0020to\u0020ORM\u0020functionality.",
-            "url": "classes/Container7XIxz3r-EntityManagerGhost614a58f.html"
+            "url": "classes/Container8p5OhZu-EntityManagerGhost614a58f.html"
         },                {
-            "fqsen": "\\Container7XIxz3r\\EntityManagerGhost614a58f\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "fqsen": "\\Container8p5OhZu\\EntityManagerGhost614a58f\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
             "name": "LAZY_OBJECT_PROPERTY_SCOPES",
             "summary": "",
-            "url": "classes/Container7XIxz3r-EntityManagerGhost614a58f.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+            "url": "classes/Container8p5OhZu-EntityManagerGhost614a58f.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808",
             "name": "ProfilerProxy8977808",
             "summary": "Profiler.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Adisable\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Adisable\u0028\u0029",
             "name": "disable",
             "summary": "Disables\u0020the\u0020profiler.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_disable"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_disable"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Aenable\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Aenable\u0028\u0029",
             "name": "enable",
             "summary": "Enables\u0020the\u0020profiler.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_enable"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_enable"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003AisEnabled\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003AisEnabled\u0028\u0029",
             "name": "isEnabled",
             "summary": "",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_isEnabled"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_isEnabled"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003AloadProfileFromResponse\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003AloadProfileFromResponse\u0028\u0029",
             "name": "loadProfileFromResponse",
             "summary": "Loads\u0020the\u0020Profile\u0020for\u0020the\u0020given\u0020Response.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_loadProfileFromResponse"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_loadProfileFromResponse"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003AloadProfile\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003AloadProfile\u0028\u0029",
             "name": "loadProfile",
             "summary": "Loads\u0020the\u0020Profile\u0020for\u0020the\u0020given\u0020token.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_loadProfile"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_loadProfile"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003AsaveProfile\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003AsaveProfile\u0028\u0029",
             "name": "saveProfile",
             "summary": "Saves\u0020a\u0020Profile.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_saveProfile"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_saveProfile"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Apurge\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Apurge\u0028\u0029",
             "name": "purge",
             "summary": "Purges\u0020all\u0020data\u0020from\u0020the\u0020storage.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_purge"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_purge"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Afind\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Afind\u0028\u0029",
             "name": "find",
             "summary": "Finds\u0020profiler\u0020tokens\u0020for\u0020the\u0020given\u0020criteria.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_find"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_find"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Acollect\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Acollect\u0028\u0029",
             "name": "collect",
             "summary": "Collects\u0020data\u0020for\u0020the\u0020given\u0020Response.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_collect"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_collect"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Areset\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Areset\u0028\u0029",
             "name": "reset",
             "summary": "",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_reset"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_reset"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Aall\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Aall\u0028\u0029",
             "name": "all",
             "summary": "Gets\u0020the\u0020Collectors\u0020associated\u0020with\u0020this\u0020profiler.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_all"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_all"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Aset\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Aset\u0028\u0029",
             "name": "set",
             "summary": "Sets\u0020the\u0020Collectors\u0020associated\u0020with\u0020this\u0020profiler.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_set"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_set"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Aadd\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Aadd\u0028\u0029",
             "name": "add",
             "summary": "Adds\u0020a\u0020Collector.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_add"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_add"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Ahas\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Ahas\u0028\u0029",
             "name": "has",
             "summary": "Returns\u0020true\u0020if\u0020a\u0020Collector\u0020for\u0020the\u0020given\u0020name\u0020exists.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_has"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_has"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003Aget\u0028\u0029",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003Aget\u0028\u0029",
             "name": "get",
             "summary": "Gets\u0020a\u0020Collector\u0020by\u0020name.",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#method_get"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#method_get"
         },                {
-            "fqsen": "\\Container7XIxz3r\\ProfilerProxy8977808\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "fqsen": "\\Container8p5OhZu\\ProfilerProxy8977808\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
             "name": "LAZY_OBJECT_PROPERTY_SCOPES",
             "summary": "",
-            "url": "classes/Container7XIxz3r-ProfilerProxy8977808.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+            "url": "classes/Container8p5OhZu-ProfilerProxy8977808.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
-            "fqsen": "\\Container7XIxz3r\\RequestPayloadValueResolverGhost01ca9cc",
+            "fqsen": "\\Container8p5OhZu\\RequestPayloadValueResolverGhost01ca9cc",
             "name": "RequestPayloadValueResolverGhost01ca9cc",
             "summary": "",
-            "url": "classes/Container7XIxz3r-RequestPayloadValueResolverGhost01ca9cc.html"
+            "url": "classes/Container8p5OhZu-RequestPayloadValueResolverGhost01ca9cc.html"
         },                {
-            "fqsen": "\\Container7XIxz3r\\RequestPayloadValueResolverGhost01ca9cc\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "fqsen": "\\Container8p5OhZu\\RequestPayloadValueResolverGhost01ca9cc\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
             "name": "LAZY_OBJECT_PROPERTY_SCOPES",
             "summary": "",
-            "url": "classes/Container7XIxz3r-RequestPayloadValueResolverGhost01ca9cc.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+            "url": "classes/Container8p5OhZu-RequestPayloadValueResolverGhost01ca9cc.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\EntityManagerGhost614a58f",
+            "name": "EntityManagerGhost614a58f",
+            "summary": "The\u0020EntityManager\u0020is\u0020the\u0020central\u0020access\u0020point\u0020to\u0020ORM\u0020functionality.",
+            "url": "classes/ContainerSsMxDuz-EntityManagerGhost614a58f.html"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\EntityManagerGhost614a58f\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "name": "LAZY_OBJECT_PROPERTY_SCOPES",
+            "summary": "",
+            "url": "classes/ContainerSsMxDuz-EntityManagerGhost614a58f.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808",
+            "name": "ProfilerProxy8977808",
+            "summary": "Profiler.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Adisable\u0028\u0029",
+            "name": "disable",
+            "summary": "Disables\u0020the\u0020profiler.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_disable"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Aenable\u0028\u0029",
+            "name": "enable",
+            "summary": "Enables\u0020the\u0020profiler.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_enable"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003AisEnabled\u0028\u0029",
+            "name": "isEnabled",
+            "summary": "",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_isEnabled"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003AloadProfileFromResponse\u0028\u0029",
+            "name": "loadProfileFromResponse",
+            "summary": "Loads\u0020the\u0020Profile\u0020for\u0020the\u0020given\u0020Response.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_loadProfileFromResponse"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003AloadProfile\u0028\u0029",
+            "name": "loadProfile",
+            "summary": "Loads\u0020the\u0020Profile\u0020for\u0020the\u0020given\u0020token.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_loadProfile"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003AsaveProfile\u0028\u0029",
+            "name": "saveProfile",
+            "summary": "Saves\u0020a\u0020Profile.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_saveProfile"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Apurge\u0028\u0029",
+            "name": "purge",
+            "summary": "Purges\u0020all\u0020data\u0020from\u0020the\u0020storage.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_purge"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Afind\u0028\u0029",
+            "name": "find",
+            "summary": "Finds\u0020profiler\u0020tokens\u0020for\u0020the\u0020given\u0020criteria.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_find"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Acollect\u0028\u0029",
+            "name": "collect",
+            "summary": "Collects\u0020data\u0020for\u0020the\u0020given\u0020Response.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_collect"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Areset\u0028\u0029",
+            "name": "reset",
+            "summary": "",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_reset"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "Gets\u0020the\u0020Collectors\u0020associated\u0020with\u0020this\u0020profiler.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_all"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Sets\u0020the\u0020Collectors\u0020associated\u0020with\u0020this\u0020profiler.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_set"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "Adds\u0020a\u0020Collector.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_add"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Ahas\u0028\u0029",
+            "name": "has",
+            "summary": "Returns\u0020true\u0020if\u0020a\u0020Collector\u0020for\u0020the\u0020given\u0020name\u0020exists.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_has"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Gets\u0020a\u0020Collector\u0020by\u0020name.",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#method_get"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\ProfilerProxy8977808\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "name": "LAZY_OBJECT_PROPERTY_SCOPES",
+            "summary": "",
+            "url": "classes/ContainerSsMxDuz-ProfilerProxy8977808.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\RequestPayloadValueResolverGhost01ca9cc",
+            "name": "RequestPayloadValueResolverGhost01ca9cc",
+            "summary": "",
+            "url": "classes/ContainerSsMxDuz-RequestPayloadValueResolverGhost01ca9cc.html"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz\\RequestPayloadValueResolverGhost01ca9cc\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "name": "LAZY_OBJECT_PROPERTY_SCOPES",
+            "summary": "",
+            "url": "classes/ContainerSsMxDuz-RequestPayloadValueResolverGhost01ca9cc.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
             "fqsen": "\\Proxies\\__CG__\\App\\Entity\\Course",
             "name": "Course",
@@ -2055,6 +2030,31 @@ Search.appendIndex(
             "name": "LAZY_OBJECT_PROPERTY_SCOPES",
             "summary": "",
             "url": "classes/Proxies-CG-App-Entity-Theme.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+        },                {
+            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User",
+            "name": "User",
+            "summary": "DO\u0020NOT\u0020EDIT\u0020THIS\u0020FILE\u0020\u002D\u0020IT\u0020WAS\u0020CREATED\u0020BY\u0020DOCTRINE\u0027S\u0020PROXY\u0020GENERATOR",
+            "url": "classes/Proxies-CG-App-Entity-User.html"
+        },                {
+            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003A__load\u0028\u0029",
+            "name": "__load",
+            "summary": "",
+            "url": "classes/Proxies-CG-App-Entity-User.html#method___load"
+        },                {
+            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003A__isInitialized\u0028\u0029",
+            "name": "__isInitialized",
+            "summary": "",
+            "url": "classes/Proxies-CG-App-Entity-User.html#method___isInitialized"
+        },                {
+            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003A__serialize\u0028\u0029",
+            "name": "__serialize",
+            "summary": "",
+            "url": "classes/Proxies-CG-App-Entity-User.html#method___serialize"
+        },                {
+            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "name": "LAZY_OBJECT_PROPERTY_SCOPES",
+            "summary": "",
+            "url": "classes/Proxies-CG-App-Entity-User.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
             "fqsen": "\\Symfony\\Config\\DebugConfig",
             "name": "DebugConfig",
@@ -30471,31 +30471,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Proxies-CG-App-Entity-LessonProgress.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
-            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User",
-            "name": "User",
-            "summary": "DO\u0020NOT\u0020EDIT\u0020THIS\u0020FILE\u0020\u002D\u0020IT\u0020WAS\u0020CREATED\u0020BY\u0020DOCTRINE\u0027S\u0020PROXY\u0020GENERATOR",
-            "url": "classes/Proxies-CG-App-Entity-User.html"
-        },                {
-            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003A__load\u0028\u0029",
-            "name": "__load",
-            "summary": "",
-            "url": "classes/Proxies-CG-App-Entity-User.html#method___load"
-        },                {
-            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003A__isInitialized\u0028\u0029",
-            "name": "__isInitialized",
-            "summary": "",
-            "url": "classes/Proxies-CG-App-Entity-User.html#method___isInitialized"
-        },                {
-            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003A__serialize\u0028\u0029",
-            "name": "__serialize",
-            "summary": "",
-            "url": "classes/Proxies-CG-App-Entity-User.html#method___serialize"
-        },                {
-            "fqsen": "\\Proxies\\__CG__\\App\\Entity\\User\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
-            "name": "LAZY_OBJECT_PROPERTY_SCOPES",
-            "summary": "",
-            "url": "classes/Proxies-CG-App-Entity-User.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
-        },                {
             "fqsen": "\\__TwigTemplate_2c73bb05bca4dd2b857bb4e9a21f159e",
             "name": "__TwigTemplate_2c73bb05bca4dd2b857bb4e9a21f159e",
             "summary": "",
@@ -39111,25 +39086,110 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-fcde531e3571aab1a861d85157c8461d.html#property_macros"
         },                {
-            "fqsen": "\\ContainerHkHaF1D\\EntityManagerGhost07d86ea",
+            "fqsen": "\\Container5qhS8S3\\EntityManagerGhost07d86ea",
             "name": "EntityManagerGhost07d86ea",
             "summary": "The\u0020EntityManager\u0020is\u0020the\u0020central\u0020access\u0020point\u0020to\u0020ORM\u0020functionality.",
-            "url": "classes/ContainerHkHaF1D-EntityManagerGhost07d86ea.html"
+            "url": "classes/Container5qhS8S3-EntityManagerGhost07d86ea.html"
         },                {
-            "fqsen": "\\ContainerHkHaF1D\\EntityManagerGhost07d86ea\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "fqsen": "\\Container5qhS8S3\\EntityManagerGhost07d86ea\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
             "name": "LAZY_OBJECT_PROPERTY_SCOPES",
             "summary": "",
-            "url": "classes/ContainerHkHaF1D-EntityManagerGhost07d86ea.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+            "url": "classes/Container5qhS8S3-EntityManagerGhost07d86ea.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
-            "fqsen": "\\ContainerHkHaF1D\\RequestPayloadValueResolverGhost29504f0",
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e",
+            "name": "ProfilerProxy34e542e",
+            "summary": "Profiler.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Adisable\u0028\u0029",
+            "name": "disable",
+            "summary": "Disables\u0020the\u0020profiler.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_disable"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Aenable\u0028\u0029",
+            "name": "enable",
+            "summary": "Enables\u0020the\u0020profiler.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_enable"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003AisEnabled\u0028\u0029",
+            "name": "isEnabled",
+            "summary": "",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_isEnabled"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003AloadProfileFromResponse\u0028\u0029",
+            "name": "loadProfileFromResponse",
+            "summary": "Loads\u0020the\u0020Profile\u0020for\u0020the\u0020given\u0020Response.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_loadProfileFromResponse"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003AloadProfile\u0028\u0029",
+            "name": "loadProfile",
+            "summary": "Loads\u0020the\u0020Profile\u0020for\u0020the\u0020given\u0020token.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_loadProfile"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003AsaveProfile\u0028\u0029",
+            "name": "saveProfile",
+            "summary": "Saves\u0020a\u0020Profile.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_saveProfile"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Apurge\u0028\u0029",
+            "name": "purge",
+            "summary": "Purges\u0020all\u0020data\u0020from\u0020the\u0020storage.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_purge"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Afind\u0028\u0029",
+            "name": "find",
+            "summary": "Finds\u0020profiler\u0020tokens\u0020for\u0020the\u0020given\u0020criteria.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_find"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Acollect\u0028\u0029",
+            "name": "collect",
+            "summary": "Collects\u0020data\u0020for\u0020the\u0020given\u0020Response.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_collect"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Areset\u0028\u0029",
+            "name": "reset",
+            "summary": "",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_reset"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "Gets\u0020the\u0020Collectors\u0020associated\u0020with\u0020this\u0020profiler.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_all"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Aset\u0028\u0029",
+            "name": "set",
+            "summary": "Sets\u0020the\u0020Collectors\u0020associated\u0020with\u0020this\u0020profiler.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_set"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "Adds\u0020a\u0020Collector.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_add"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Ahas\u0028\u0029",
+            "name": "has",
+            "summary": "Returns\u0020true\u0020if\u0020a\u0020Collector\u0020for\u0020the\u0020given\u0020name\u0020exists.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_has"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Gets\u0020a\u0020Collector\u0020by\u0020name.",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#method_get"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\ProfilerProxy34e542e\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "name": "LAZY_OBJECT_PROPERTY_SCOPES",
+            "summary": "",
+            "url": "classes/Container5qhS8S3-ProfilerProxy34e542e.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+        },                {
+            "fqsen": "\\Container5qhS8S3\\RequestPayloadValueResolverGhost29504f0",
             "name": "RequestPayloadValueResolverGhost29504f0",
             "summary": "",
-            "url": "classes/ContainerHkHaF1D-RequestPayloadValueResolverGhost29504f0.html"
+            "url": "classes/Container5qhS8S3-RequestPayloadValueResolverGhost29504f0.html"
         },                {
-            "fqsen": "\\ContainerHkHaF1D\\RequestPayloadValueResolverGhost29504f0\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
+            "fqsen": "\\Container5qhS8S3\\RequestPayloadValueResolverGhost29504f0\u003A\u003ALAZY_OBJECT_PROPERTY_SCOPES",
             "name": "LAZY_OBJECT_PROPERTY_SCOPES",
             "summary": "",
-            "url": "classes/ContainerHkHaF1D-RequestPayloadValueResolverGhost29504f0.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
+            "url": "classes/Container5qhS8S3-RequestPayloadValueResolverGhost29504f0.html#constant_LAZY_OBJECT_PROPERTY_SCOPES"
         },                {
             "fqsen": "\\ContainerZy6r1wo\\EntityManagerGhost07d86ea",
             "name": "EntityManagerGhost07d86ea",
@@ -41861,6 +41921,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-d39a702c0e674948072264e5d44a4cb1.html#property_macros"
         },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a",
+            "name": "__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_34859a3e729bbc6c69e30c89e7ee479a\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-34859a3e729bbc6c69e30c89e7ee479a.html#property_macros"
+        },                {
             "fqsen": "\\__TwigTemplate_9ebb070930e228a2e486e70dbf6d3172",
             "name": "__TwigTemplate_9ebb070930e228a2e486e70dbf6d3172",
             "summary": "",
@@ -42726,6 +42831,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-fc80a28d53e5675995f9df1ca474d683.html#property_macros"
         },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826",
+            "name": "__TwigTemplate_67763b90d7e11b6133de17d7b773f826",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003AdoGetParent\u0028\u0029",
+            "name": "doGetParent",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_doGetParent"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003Ablock_title\u0028\u0029",
+            "name": "block_title",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_block_title"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003Ablock_body\u0028\u0029",
+            "name": "block_body",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_block_body"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_67763b90d7e11b6133de17d7b773f826\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-67763b90d7e11b6133de17d7b773f826.html#property_macros"
+        },                {
             "fqsen": "\\__TwigTemplate_47d81bf75154ba1999a2786360f5694d",
             "name": "__TwigTemplate_47d81bf75154ba1999a2786360f5694d",
             "summary": "",
@@ -42876,6 +43041,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-215b94a9d02b77f3219bb702aafe3f7c.html#property_macros"
         },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2",
+            "name": "__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003AdoGetParent\u0028\u0029",
+            "name": "doGetParent",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_doGetParent"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003Ablock_title\u0028\u0029",
+            "name": "block_title",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_block_title"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003Ablock_body\u0028\u0029",
+            "name": "block_body",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_block_body"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_e5f80ed2b64171867e39bdaa65cbe4b2\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-e5f80ed2b64171867e39bdaa65cbe4b2.html#property_macros"
+        },                {
             "fqsen": "\\__TwigTemplate_df37015ca8e20766bc627236893ffe20",
             "name": "__TwigTemplate_df37015ca8e20766bc627236893ffe20",
             "summary": "",
@@ -42935,6 +43160,51 @@ Search.appendIndex(
             "name": "macros",
             "summary": "",
             "url": "classes/TwigTemplate-df37015ca8e20766bc627236893ffe20.html#property_macros"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9",
+            "name": "__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_b4e346ff71a8ecb66ef75b71f13037e9\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-b4e346ff71a8ecb66ef75b71f13037e9.html#property_macros"
         },                {
             "fqsen": "\\__TwigTemplate_32595fedff9134674cde76849e52b376",
             "name": "__TwigTemplate_32595fedff9134674cde76849e52b376",
@@ -44766,6 +45036,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-771311cb0ea9c6087563f0e47f65bbda.html#property_macros"
         },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef",
+            "name": "__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003AdoGetParent\u0028\u0029",
+            "name": "doGetParent",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_doGetParent"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003Ablock_title\u0028\u0029",
+            "name": "block_title",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_block_title"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003Ablock_body\u0028\u0029",
+            "name": "block_body",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_block_body"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_5442aaea4fbf8610bc759e0e6b1ea9ef\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-5442aaea4fbf8610bc759e0e6b1ea9ef.html#property_macros"
+        },                {
             "fqsen": "\\__TwigTemplate_65cafffbfc677227c31c03b870b6daf8",
             "name": "__TwigTemplate_65cafffbfc677227c31c03b870b6daf8",
             "summary": "",
@@ -44871,6 +45201,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-043697ebbb69be714a3937f6c054748a.html#property_macros"
         },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972",
+            "name": "__TwigTemplate_718a83fb27eb02802a15228d3a85b972",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003Ablock_title\u0028\u0029",
+            "name": "block_title",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_block_title"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003Ablock_stylesheets\u0028\u0029",
+            "name": "block_stylesheets",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_block_stylesheets"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003Ablock_body\u0028\u0029",
+            "name": "block_body",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_block_body"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_718a83fb27eb02802a15228d3a85b972\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-718a83fb27eb02802a15228d3a85b972.html#property_macros"
+        },                {
             "fqsen": "\\__TwigTemplate_5be3a91efca6be408377e70c1055fa2b",
             "name": "__TwigTemplate_5be3a91efca6be408377e70c1055fa2b",
             "summary": "",
@@ -44970,6 +45360,66 @@ Search.appendIndex(
             "name": "macros",
             "summary": "",
             "url": "classes/TwigTemplate-4056a2d0fa1d4a33a61ccb801ecc0ed4.html#property_macros"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059",
+            "name": "__TwigTemplate_992a498f49eec00f928d602664733059",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003AdoGetParent\u0028\u0029",
+            "name": "doGetParent",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_doGetParent"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003Ablock_title\u0028\u0029",
+            "name": "block_title",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_block_title"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003Ablock_body\u0028\u0029",
+            "name": "block_body",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_block_body"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_992a498f49eec00f928d602664733059\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-992a498f49eec00f928d602664733059.html#property_macros"
         },                {
             "fqsen": "\\__TwigTemplate_091f8b83ee7d6576f32b8bc1ec8511df",
             "name": "__TwigTemplate_091f8b83ee7d6576f32b8bc1ec8511df",
@@ -46155,6 +46605,66 @@ Search.appendIndex(
             "name": "macros",
             "summary": "",
             "url": "classes/TwigTemplate-9ed9d937ab49943ebcb1dc87e0041bdd.html#property_macros"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933",
+            "name": "__TwigTemplate_3912962c5f9442bd2b2d01a476c04933",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003AdoGetParent\u0028\u0029",
+            "name": "doGetParent",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_doGetParent"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003Ablock_title\u0028\u0029",
+            "name": "block_title",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_block_title"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003Ablock_body\u0028\u0029",
+            "name": "block_body",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_block_body"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003AisTraitable\u0028\u0029",
+            "name": "isTraitable",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_isTraitable"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_3912962c5f9442bd2b2d01a476c04933\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-3912962c5f9442bd2b2d01a476c04933.html#property_macros"
         },                {
             "fqsen": "\\__TwigTemplate_025cb5ee26e0db7ca71cf91fb6ab775b",
             "name": "__TwigTemplate_025cb5ee26e0db7ca71cf91fb6ab775b",
@@ -48221,6 +48731,296 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/TwigTemplate-cdb92bcadb62559873f82008aa930db9.html#property_macros"
         },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b",
+            "name": "__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_widget\u0028\u0029",
+            "name": "block_form_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_widget_simple\u0028\u0029",
+            "name": "block_form_widget_simple",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_widget_simple"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_widget_compound\u0028\u0029",
+            "name": "block_form_widget_compound",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_widget_compound"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_collection_widget\u0028\u0029",
+            "name": "block_collection_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_collection_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_textarea_widget\u0028\u0029",
+            "name": "block_textarea_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_textarea_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_choice_widget\u0028\u0029",
+            "name": "block_choice_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_choice_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_choice_widget_expanded\u0028\u0029",
+            "name": "block_choice_widget_expanded",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_choice_widget_expanded"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_choice_widget_collapsed\u0028\u0029",
+            "name": "block_choice_widget_collapsed",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_choice_widget_collapsed"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_choice_widget_options\u0028\u0029",
+            "name": "block_choice_widget_options",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_choice_widget_options"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_checkbox_widget\u0028\u0029",
+            "name": "block_checkbox_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_checkbox_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_radio_widget\u0028\u0029",
+            "name": "block_radio_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_radio_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_datetime_widget\u0028\u0029",
+            "name": "block_datetime_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_datetime_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_date_widget\u0028\u0029",
+            "name": "block_date_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_date_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_time_widget\u0028\u0029",
+            "name": "block_time_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_time_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_dateinterval_widget\u0028\u0029",
+            "name": "block_dateinterval_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_dateinterval_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_number_widget\u0028\u0029",
+            "name": "block_number_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_number_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_integer_widget\u0028\u0029",
+            "name": "block_integer_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_integer_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_money_widget\u0028\u0029",
+            "name": "block_money_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_money_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_url_widget\u0028\u0029",
+            "name": "block_url_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_url_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_search_widget\u0028\u0029",
+            "name": "block_search_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_search_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_percent_widget\u0028\u0029",
+            "name": "block_percent_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_percent_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_password_widget\u0028\u0029",
+            "name": "block_password_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_password_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_hidden_widget\u0028\u0029",
+            "name": "block_hidden_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_hidden_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_email_widget\u0028\u0029",
+            "name": "block_email_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_email_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_range_widget\u0028\u0029",
+            "name": "block_range_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_range_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_button_widget\u0028\u0029",
+            "name": "block_button_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_button_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_submit_widget\u0028\u0029",
+            "name": "block_submit_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_submit_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_reset_widget\u0028\u0029",
+            "name": "block_reset_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_reset_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_tel_widget\u0028\u0029",
+            "name": "block_tel_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_tel_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_color_widget\u0028\u0029",
+            "name": "block_color_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_color_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_week_widget\u0028\u0029",
+            "name": "block_week_widget",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_week_widget"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_label\u0028\u0029",
+            "name": "block_form_label",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_label"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_label_content\u0028\u0029",
+            "name": "block_form_label_content",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_label_content"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_button_label\u0028\u0029",
+            "name": "block_button_label",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_button_label"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_help\u0028\u0029",
+            "name": "block_form_help",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_help"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_help_content\u0028\u0029",
+            "name": "block_form_help_content",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_help_content"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_repeated_row\u0028\u0029",
+            "name": "block_repeated_row",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_repeated_row"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_row\u0028\u0029",
+            "name": "block_form_row",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_row"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_button_row\u0028\u0029",
+            "name": "block_button_row",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_button_row"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_hidden_row\u0028\u0029",
+            "name": "block_hidden_row",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_hidden_row"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form\u0028\u0029",
+            "name": "block_form",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_start\u0028\u0029",
+            "name": "block_form_start",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_start"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_end\u0028\u0029",
+            "name": "block_form_end",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_end"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_errors\u0028\u0029",
+            "name": "block_form_errors",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_errors"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_rest\u0028\u0029",
+            "name": "block_form_rest",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_rest"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_form_rows\u0028\u0029",
+            "name": "block_form_rows",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_form_rows"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_widget_attributes\u0028\u0029",
+            "name": "block_widget_attributes",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_widget_attributes"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_widget_container_attributes\u0028\u0029",
+            "name": "block_widget_container_attributes",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_widget_container_attributes"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_button_attributes\u0028\u0029",
+            "name": "block_button_attributes",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_button_attributes"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003Ablock_attributes\u0028\u0029",
+            "name": "block_attributes",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_block_attributes"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_a747bbbf3487e15b3799ac70ee74de2b\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-a747bbbf3487e15b3799ac70ee74de2b.html#property_macros"
+        },                {
             "fqsen": "\\__TwigTemplate_1bb1cbe851fa7025f6a7e55c6a8e7c17",
             "name": "__TwigTemplate_1bb1cbe851fa7025f6a7e55c6a8e7c17",
             "summary": "",
@@ -49155,6 +49955,46 @@ Search.appendIndex(
             "name": "macros",
             "summary": "",
             "url": "classes/TwigTemplate-fb8353130f17b94f33f0af9172854fed.html#property_macros"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8",
+            "name": "__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#method___construct"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003AdoDisplay\u0028\u0029",
+            "name": "doDisplay",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#method_doDisplay"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003AgetTemplateName\u0028\u0029",
+            "name": "getTemplateName",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#method_getTemplateName"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003AgetDebugInfo\u0028\u0029",
+            "name": "getDebugInfo",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#method_getDebugInfo"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003AgetSourceContext\u0028\u0029",
+            "name": "getSourceContext",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#method_getSourceContext"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#property_source"
+        },                {
+            "fqsen": "\\__TwigTemplate_87f6212a0a411790bc1aa0291d8c46d8\u003A\u003A\u0024macros",
+            "name": "macros",
+            "summary": "",
+            "url": "classes/TwigTemplate-87f6212a0a411790bc1aa0291d8c46d8.html#property_macros"
         },                {
             "fqsen": "\\__TwigTemplate_0f134a64109af8722ca6c75a396b3867",
             "name": "__TwigTemplate_0f134a64109af8722ca6c75a396b3867",
@@ -290111,11 +290951,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html"
         },                {
-            "fqsen": "\\DoctrineMigrations",
-            "name": "DoctrineMigrations",
-            "summary": "",
-            "url": "namespaces/doctrinemigrations.html"
-        },                {
             "fqsen": "\\App\\Security",
             "name": "Security",
             "summary": "",
@@ -290156,11 +290991,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/app-repository.html"
         },                {
-            "fqsen": "\\App\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/app-service.html"
-        },                {
             "fqsen": "\\App\\Tests\\Entity",
             "name": "Entity",
             "summary": "",
@@ -290176,10 +291006,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/app-tests-controller.html"
         },                {
-            "fqsen": "\\Container7XIxz3r",
-            "name": "Container7XIxz3r",
+            "fqsen": "\\Container8p5OhZu",
+            "name": "Container8p5OhZu",
             "summary": "",
-            "url": "namespaces/container7xixz3r.html"
+            "url": "namespaces/container8p5ohzu.html"
+        },                {
+            "fqsen": "\\ContainerSsMxDuz",
+            "name": "ContainerSsMxDuz",
+            "summary": "",
+            "url": "namespaces/containerssmxduz.html"
         },                {
             "fqsen": "\\Proxies\\__CG__\\App\\Entity",
             "name": "Entity",
@@ -290481,10 +291316,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/containerxkvquc8.html"
         },                {
-            "fqsen": "\\ContainerHkHaF1D",
-            "name": "ContainerHkHaF1D",
+            "fqsen": "\\Container5qhS8S3",
+            "name": "Container5qhS8S3",
             "summary": "",
-            "url": "namespaces/containerhkhaf1d.html"
+            "url": "namespaces/container5qhs8s3.html"
         },                {
             "fqsen": "\\ContainerZy6r1wo",
             "name": "ContainerZy6r1wo",

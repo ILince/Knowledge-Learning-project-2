@@ -57,10 +57,6 @@
                     <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/doctrinemigrations.html" class="">DoctrineMigrations</a>
-</h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/app.html" class="">App</a>
 </h4>
     <ul class="phpdocumentor-list">
@@ -89,17 +85,17 @@
                 
             </li>
                     <li>
-                <a href="namespaces/app-service.html" class="">Service</a>
-                
-            </li>
-                    <li>
                 <a href="namespaces/app-tests.html" class="">Tests</a>
                 
             </li>
             </ul>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/container7xixz3r.html" class="">Container7XIxz3r</a>
+    <a href="namespaces/container8p5ohzu.html" class="">Container8p5OhZu</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/containerssmxduz.html" class="">ContainerSsMxDuz</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -159,7 +155,7 @@
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/containerhkhaf1d.html" class="">ContainerHkHaF1D</a>
+    <a href="namespaces/container5qhs8s3.html" class="">Container5qhS8S3</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -751,16 +747,6 @@
     <a href="packages/Application.html" class="">Application</a>
 </h4>
 
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="packages/App.html" class="">App</a>
-</h4>
-    <ul class="phpdocumentor-list">
-                    <li>
-                <a href="packages/App-Tests.html" class="">Tests</a>
-                
-            </li>
-            </ul>
-
                         </section>
             
     <section class="phpdocumentor-sidebar__category -reports">
@@ -809,7 +795,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/RegistrationController.php"><a href="files/src-controller-registrationcontroller.html"><abbr title="src/Controller/RegistrationController.php">RegistrationController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -888,6 +874,9 @@ by such instances, optionally keyed by the service names used internally.</dd>
     <span>
                                 &nbsp;: <a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a>    </span>
 </dt>
+<dd>Handles user registration. Validates the form, hashes the password,
+saves the user to the database, sends the confirmation email,
+and redirects the user to the login page.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Symfony-Bundle-FrameworkBundle-Controller-AbstractController.html#method_setContainer">setContainer()</a>
@@ -900,6 +889,7 @@ by such instances, optionally keyed by the service names used internally.</dd>
     <span>
                                 &nbsp;: <a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a>    </span>
 </dt>
+<dd>Verifies the user&#039;s email address when the confirmation link is clicked.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/Symfony-Bundle-FrameworkBundle-Controller-AbstractController.html#method_addFlash">addFlash()</a>
@@ -1140,7 +1130,7 @@ supplied subject.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/RegistrationController.php"><a href="files/src-controller-registrationcontroller.html"><abbr title="src/Controller/RegistrationController.php">RegistrationController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -1176,7 +1166,7 @@ supplied subject.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/RegistrationController.php"><a href="files/src-controller-registrationcontroller.html"><abbr title="src/Controller/RegistrationController.php">RegistrationController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -1217,7 +1207,7 @@ supplied subject.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/RegistrationController.php"><a href="files/src-controller-registrationcontroller.html"><abbr title="src/Controller/RegistrationController.php">RegistrationController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -1335,11 +1325,14 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/RegistrationController.php"><a href="files/src-controller-registrationcontroller.html"><abbr title="src/Controller/RegistrationController.php">RegistrationController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Handles user registration. Validates the form, hashes the password,
+saves the user to the database, sends the confirmation email,
+and redirects the user to the login page.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">register</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-HttpFoundation-Request.html"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-PasswordHasher-Hasher-UserPasswordHasherInterface.html"><abbr title="\Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface">UserPasswordHasherInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userPasswordHasher</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Doctrine-ORM-EntityManagerInterface.html"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span></code>
@@ -1473,11 +1466,12 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/RegistrationController.php"><a href="files/src-controller-registrationcontroller.html"><abbr title="src/Controller/RegistrationController.php">RegistrationController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Verifies the user&#039;s email address when the confirmation link is clicked.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">verifyUserEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-HttpFoundation-Request.html"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Contracts-Translation-TranslatorInterface.html"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span></code>
@@ -1485,7 +1479,9 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>If the email is successfully verified, redirects the user to the homepage.</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">

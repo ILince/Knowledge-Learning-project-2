@@ -57,10 +57,6 @@
                     <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/doctrinemigrations.html" class="">DoctrineMigrations</a>
-</h4>
-
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/app.html" class="">App</a>
 </h4>
     <ul class="phpdocumentor-list">
@@ -89,17 +85,17 @@
                 
             </li>
                     <li>
-                <a href="namespaces/app-service.html" class="">Service</a>
-                
-            </li>
-                    <li>
                 <a href="namespaces/app-tests.html" class="">Tests</a>
                 
             </li>
             </ul>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/container7xixz3r.html" class="">Container7XIxz3r</a>
+    <a href="namespaces/container8p5ohzu.html" class="">Container8p5OhZu</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/containerssmxduz.html" class="">ContainerSsMxDuz</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -159,7 +155,7 @@
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="namespaces/containerhkhaf1d.html" class="">ContainerHkHaF1D</a>
+    <a href="namespaces/container5qhs8s3.html" class="">Container5qhS8S3</a>
 </h4>
 
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
@@ -751,16 +747,6 @@
     <a href="packages/Application.html" class="">Application</a>
 </h4>
 
-                                    <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="packages/App.html" class="">App</a>
-</h4>
-    <ul class="phpdocumentor-list">
-                    <li>
-                <a href="packages/App-Tests.html" class="">Tests</a>
-                
-            </li>
-            </ul>
-
                         </section>
             
     <section class="phpdocumentor-sidebar__category -reports">
@@ -809,11 +795,11 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/CartController.php"><a href="files/src-controller-cartcontroller.html"><abbr title="src/Controller/CartController.php">CartController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Provides shortcuts for HTTP-related features in controllers.</p>
+            <p class="phpdocumentor-summary">Controller to handle shopping cart functionalities.</p>
 
 
 
@@ -887,6 +873,7 @@
     <span>
                                 &nbsp;: <a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a>    </span>
 </dt>
+<dd>Adds an item (lesson or course) to the cart.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Symfony-Bundle-FrameworkBundle-Controller-AbstractController.html#method_getSubscribedServices">getSubscribedServices()</a>
@@ -901,12 +888,14 @@ by such instances, optionally keyed by the service names used internally.</dd>
     <span>
                                 &nbsp;: <a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a>    </span>
 </dt>
+<dd>Displays the cart contents along with the total price.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/App-Controller-CartController.html#method_remove">remove()</a>
     <span>
                                 &nbsp;: <a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a>    </span>
 </dt>
+<dd>Removes an item from the cart.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/Symfony-Bundle-FrameworkBundle-Controller-AbstractController.html#method_setContainer">setContainer()</a>
@@ -1158,11 +1147,12 @@ supplied subject.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/CartController.php"><a href="files/src-controller-cartcontroller.html"><abbr title="src/Controller/CartController.php">CartController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Adds an item (lesson or course) to the cart.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">addToCart</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-HttpFoundation-Request.html"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-HttpFoundation-Session-SessionInterface.html"><abbr title="\Symfony\Component\HttpFoundation\Session\SessionInterface">SessionInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$session</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Repository-LessonRepository.html"><abbr title="\App\Repository\LessonRepository">LessonRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lessonRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Repository-CourseRepository.html"><abbr title="\App\Repository\CourseRepository">CourseRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$courseRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-Security-Core-User-UserInterface.html"><abbr title="\Symfony\Component\Security\Core\User\UserInterface">UserInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$user</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span></code>
@@ -1321,11 +1311,12 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/CartController.php"><a href="files/src-controller-cartcontroller.html"><abbr title="src/Controller/CartController.php">CartController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Displays the cart contents along with the total price.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">index</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-HttpFoundation-Session-SessionInterface.html"><abbr title="\Symfony\Component\HttpFoundation\Session\SessionInterface">SessionInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$session</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Repository-LessonRepository.html"><abbr title="\App\Repository\LessonRepository">LessonRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lessonRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Repository-CourseRepository.html"><abbr title="\App\Repository\CourseRepository">CourseRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$courseRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span></code>
@@ -1400,11 +1391,12 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Controller/CartController.php"><a href="files/src-controller-cartcontroller.html"><abbr title="src/Controller/CartController.php">CartController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">136</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Removes an item from the cart.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">remove</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Symfony-Component-HttpFoundation-Session-SessionInterface.html"><abbr title="\Symfony\Component\HttpFoundation\Session\SessionInterface">SessionInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$session</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Symfony-Component-HttpFoundation-Response.html"><abbr title="\Symfony\Component\HttpFoundation\Response">Response</abbr></a></span></code>
@@ -1420,14 +1412,18 @@ internally to fetch an iterable of Psr\Log\LoggerInterface instances.</li>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>(lesson or course)</p>
+</section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$id</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The ID of the item</p>
+</section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$session</span>
