@@ -1,0 +1,37 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  height: 100%;
+    margin: 0;
+}
+.nav-link.active {
+  border-bottom: solid #82b864;
+}
+
+.navbar-logo {
+  height: auto;
+  max-height: 70px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+  border-bottom: solid #82b864;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container-fluid {
+  min-height: calc(
+    100vh - 120px
+  );
+}
+
+footer {
+  background-color: #00497c;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

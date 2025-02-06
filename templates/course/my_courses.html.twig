@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My Courses{% endblock %}
+
+{% block body %}
+    <section class="pt-4" style="background-color: #f1f8fc;">
+        <div class="container px-lg-5">
+            <div class="container px-lg-5 py-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center" style="background-color: #ffffff;">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold" style="color: #00497c;">My Courses</h1>
+                        <p class="fs-4" style="color: #384050;">
+                            Here you can find all the courses you have purchased and start learning right away.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- List of courses -->
+            {% if courses is not empty %}
+                <div class="row gx-lg-5">
+                    {% for course in courses %}
+                        <div class="col-lg-6 col-xxl-4 mb-5">
+                            <div class="card border-0 h-100" style="background-color: #ffffff;">
+                                <div class="card-body p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary text-white rounded-3 mb-4 mt-n4" style="background-color: #0074c7;">
+                                        <i class="bi bi-collection"></i>
+                                    </div>
+                                    <h2 class="fs-4 fw-bold" style="color: #00497c;">{{ course.name }}</h2>
+                                    <p class="mb-3" style="color: #384050;">
+                                        <strong>Theme:</strong> {{ course.theme.name }}
+                                    </p>
+                                    <h4>Lessons:</h4>
+                                    <ul class="list-unstyled" style="color: #384050;">
+                                        {% for lesson in course.lessons %}
+                                            <li>• {{ lesson.name }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                    <a href="{{ path('course_details', { id: course.id }) }}" class="btn mt-3" style="background-color: #0074c7; color: #fff; border-radius: 5px;">
+                                        View Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center">
+                    <p class="fs-4 text-muted">You have not purchased any courses yet.</p>
+                </div>
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}

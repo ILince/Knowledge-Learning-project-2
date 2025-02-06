@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ lesson.name }} - Learn
+{% endblock %}
+
+{% block body %}
+<div class="lesson-page container mt-5">
+    <!-- Lesson Header -->
+    <div class="lesson-header text-center mb-5">
+        <h1 class="lesson-title" style="color: #00497c; font-weight: bold;">{{ lesson.name }}</h1>
+        <p><em>Part of the course:</em> 
+            <a href="{{ path('course_details', { id: lesson.course.id }) }}" style="color: #82b864;">
+                {{ lesson.course.name }}
+            </a>
+        </p>
+        <hr>
+    </div>
+
+    <!-- Lesson Content -->
+    {% if user and lesson in user.lessons %}
+        <div class="lesson-content">
+            <h2 class="mb-4" style="color: #333;">Lesson Content</h2>
+            <div class="content" style="font-size: 1.2em; line-height: 1.6;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.</p>
+                <p>Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.</p>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Lesson Actions -->
+        <div class="lesson-actions text-center">
+            {% if lessonProgress is null or not lessonProgress.isValidated %}
+                <form action="{{ path('lesson_validate', {'id': lesson.id}) }}" method="post" class="mb-3">
+                    <button type="submit" class="btn btn-primary">Mark as Completed</button>
+                </form>
+            {% else %}
+                <div class="alert alert-success">🎉 Congratulations! You have completed this lesson.</div>
+            {% endif %}
+        </div>
+    {% else %}
+        <!-- Message if Lesson Not Purchased -->
+        <div class="alert alert-warning text-center">
+            <p>You need to purchase this lesson to access the content.</p>
+            <form action="{{ path('app_cart_add_to_cart') }}" method="post">
+                <input type="hidden" name="id" value="{{ lesson.id }}">
+                <input type="hidden" name="type" value="lesson">
+                <button type="submit" class="btn btn-success">Buy Lesson for {{ lesson.price }} €</button>
+            </form>
+        </div>
+    {% endif %}
+
+    <!-- Navigation -->
+    <div class="lesson-navigation mt-5 text-center">
+        <a href="{{ path('course_details', { id: lesson.course.id }) }}" class="btn btn-secondary">Back to Course</a>
+    </div>
+</div>
+{% endblock %}

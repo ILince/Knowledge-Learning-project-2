@@ -1,0 +1,77 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Welcome to Knowledge Learning{% endblock %}
+
+{% block body %}
+    <section class="pt-4" style="background-color: #f1f8fc;">
+        <div class="container px-lg-5">
+            <div class="container px-lg-5 py-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center" style="background-color: #ffffff;">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold" style="color: #00497c;">Knowledge Learning</h1>
+                        <p class="fs-4" style="color: #384050;">Knowledge Learning is an online platform dedicated to fostering creativity and learning, offering high-quality courses taught by professionals in a wide variety of creative fields.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Page Features -->
+            <div class="row gx-lg-5">
+                <!-- Theme widget 1 -->
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card border-0 h-100" style="background-color: #ffffff;">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary text-white rounded-3 mb-4 mt-n4" style="background-color: #0074c7;">
+                                <i class="bi bi-collection"></i>
+                            </div>
+                            <h2 class="fs-4 fw-bold" style="color: #00497c;">Art of Music</h2>
+                            <p class="mb-0" style="color: #384050;">Explore courses on playing instruments, music theory, and audio production to enhance your musical skills.</p>
+                            {% if music_lessons_theme_id is not null %}
+                                <a class="btn" href="{{ path('app_course', {'theme': music_lessons_theme_id}) }}" style="background-color: #0074c7; color: #fff; border-radius: 5px;">See all Music courses</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme widget 2 -->
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card border-0 h-100" style="background-color: #ffffff;">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary text-white rounded-3 mb-4 mt-n4" style="background-color: #0074c7;">
+                                <i class="bi bi-cloud-download"></i>
+                            </div>
+                            <h2 class="fs-4 fw-bold" style="color: #00497c;">World of Technology</h2>
+                            <p class="mb-0" style="color: #384050;">Dive into programming, cybersecurity, and data analysis to build your IT expertise.</p>
+                            {% if computer_lessons_theme_id is not null %}
+                                <a class="btn" href="{{ path('app_course', {'theme': computer_lessons_theme_id}) }}" style="background-color: #0074c7; color: #fff; border-radius: 5px;">See all Computer Science courses</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme widget 3 -->
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card border-0 h-100" style="background-color: #ffffff;">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary text-white rounded-3 mb-4 mt-n4" style="background-color: #0074c7;">
+                                <i class="bi bi-card-heading"></i>
+                            </div>
+                            <h2 class="fs-4 fw-bold" style="color: #00497c;">Grow Your Gardening</h2>
+                            <p class="mb-0" style="color: #384050;">Learn techniques for planting, landscaping, and sustainable gardening practices.</p>
+                            {% if gardening_lessons_theme_id is not null %}
+                                <a class="btn" href="{{ path('app_course', {'theme': gardening_lessons_theme_id}) }}" style="background-color: #0074c7; color: #fff; border-radius: 5px;">See all Gardening courses</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- All Courses Button -->
+        <div class="container p-lg-5">
+            <div class="text-center m-4">
+                <a class="btn btn-lg" href="{{ url('app_course') }}" style="background-color: #82b864; color: #fff; border-radius: 5px;">See all Knowledge Learning courses</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

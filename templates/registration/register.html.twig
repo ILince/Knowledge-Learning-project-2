@@ -1,0 +1,82 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register
+{% endblock %}
+
+{% block body %}
+	<!--  Error messages for email verification -->
+	{% for flash_error in app.flashes('verify_email_error') %}
+		<div class="alert alert-danger" role="alert">{{ flash_error }}</div>
+	{% endfor %}
+
+	<!--  Success messages for confirmation email -->
+	{% for flash_success in app.flashes('success') %}
+		<div class="alert alert-success" role="alert">{{ flash_success }}</div>
+	{% endfor %}
+
+	<style>
+		.line {
+			height: 2px;
+			background-color: #bcd8f3;
+			margin: 10px 0;
+		}
+
+		.btn-custom {
+			background-color: #66bbff;
+			color: white;
+			transition: background-color 0.3s ease;
+		}
+
+		.btn-custom:hover {
+			background-color: #3399ff;
+		}
+
+		.registration-container {
+			max-width: 400px;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ddd;
+		}
+	</style>
+
+	<div class="registration-container">
+		<h1 class="h3 mb-3 fs-5 fw-normal text-center">Register</h1>
+		<div class="line"></div>
+
+		<!-- Form errors display -->
+		{{ form_errors(registrationForm) }}
+
+		<!-- Registration form -->
+		{{ form_start(registrationForm) }}
+		<div class="mb-4">
+			{{ form_row(registrationForm.username) }}
+			{{ form_row(registrationForm.email) }}
+			{{ form_row(registrationForm.deliveryAddress) }}
+		</div>
+
+		<div class="my-4">
+			{{ form_row(registrationForm.plainPassword.first) }}
+			{{ form_row(registrationForm.plainPassword.second) }}
+		</div>
+
+		<div class="my-4">
+			{{ form_row(registrationForm.agreeTerms) }}
+		</div>
+
+		<button type="submit" class="btn btn-lg btn-custom w-100">
+			Create Account
+		</button>
+		{{ form_end(registrationForm) }}
+
+		<div class="line"></div>
+
+		<!-- Login button -->
+		<p class="text-center">Already registered?</p>
+		<div class="text-center">
+
+			<a href="{{ path('app_login') }}" class="btn btn-lg btn-custom w-100">
+				Log in
+			</a>
+		</div>
+	</div>
+{% endblock %}

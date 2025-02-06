@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My Knowledge Learning Certifications
+{% endblock %}
+
+{% block body %}
+	<div
+		class="container mt-5">
+		<!-- Header Section -->
+		<div class="text-center mb-4">
+			<h1 class="fw-bold" style="color: #00497c;">My Knowledge Learning Certifications</h1>
+			<p class="text-muted">Here is a list of the certifications you have earned from your courses.</p>
+			<hr>
+		</div>
+
+		<!-- Certifications List -->
+		{% if certifications|length > 0 %}
+			<div class="row">
+				{% for certification in certifications %}
+					<div class="col-md-6 mb-4">
+						<div class="card shadow-sm">
+							<div class="card-body">
+
+								<h5 class="card-title" style="color: #82b864;">{{ certification.theme.name }}</h5>
+								<p class="card-text">
+
+									<strong>Date of Achievement:</strong>
+									{{ certification.obtainedAt|date('d/m/Y') }}
+								</p>
+							</div>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		{% else %}
+			<!-- No certifications message -->
+			<div class="alert alert-warning text-center" role="alert">
+				<p>You haven't earned any certifications yet.</p>
+			</div>
+		{% endif %}
+	</div>
+{% endblock %}

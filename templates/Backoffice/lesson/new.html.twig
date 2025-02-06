@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Add a New Lesson{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1>Add a New Lesson</h1>
+
+        {{ form_start(form, {'attr': {'onsubmit': 'return confirm("Are you sure you want to save this lesson?");'}}) }}
+
+        <!-- Lesson Name Field -->
+        <div class="mb-3">
+            {{ form_label(form.name) }}
+            {{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.name) }}
+        </div>
+
+        <!-- Associated Course Field -->
+        <div class="mb-3">
+            {{ form_label(form.course) }}
+            {{ form_widget(form.course, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.course) }}
+        </div>
+
+        <!-- Price Field -->
+        <div class="mb-3">
+            {{ form_label(form.price) }}
+            {{ form_widget(form.price, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.price) }}
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-success">Add Lesson</button>
+            <a href="{{ path('admin_backoffice') }}" class="btn btn-secondary ml-2">Back to Back-office</a>
+        </div>
+
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

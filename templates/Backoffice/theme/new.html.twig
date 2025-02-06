@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Add a New Theme{% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Add a New Theme</h1>
+
+        {{ form_start(form) }}
+        
+        <!-- Theme Name Field -->
+        <div class="mb-3">
+            {{ form_label(form.name, 'Theme Name') }}
+            {{ form_widget(form.name, {'attr': {'class': 'form-control', 'placeholder': 'Enter theme name'}}) }}
+            {{ form_errors(form.name) }}
+        </div>
+
+        <!-- Submit Button -->
+        <div class="d-flex justify-content-between mt-3">
+            <button type="submit" class="btn btn-primary">Add Theme</button>
+            <a href="{{ path('admin_backoffice') }}" class="btn btn-secondary">Back to Back-office</a>
+        </div>
+
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

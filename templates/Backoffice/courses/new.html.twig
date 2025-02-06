@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Add a New Course
+{% endblock %}
+
+{% block body %}
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<h1 class="text-center mb-4">Add a New Course</h1>
+
+				<div class="card shadow-sm">
+					<div class="card-body">
+						{{ form_start(form, {'attr': {'onsubmit': 'return confirm("Are you sure you want to add this course?");'}}) }}
+
+						<!-- Course Name Field -->
+						<div class="mb-3">
+							{{ form_label(form.name, 'Course Name', {'label_attr': {'class': 'font-weight-bold'}}) }}
+							{{ form_widget(form.name, {'attr': {'class': 'form-control', 'placeholder': 'Enter course name'}}) }}
+							{{ form_errors(form.name) }}
+						</div>
+
+						<!-- Course Price Field -->
+						<div class="mb-3">
+							{{ form_label(form.price, 'Price (€)', {'label_attr': {'class': 'font-weight-bold'}}) }}
+							{{ form_widget(form.price, {'attr': {'class': 'form-control', 'placeholder': 'Enter course price'}}) }}
+							{{ form_errors(form.price) }}
+						</div>
+
+						<!-- Course Theme Field -->
+						<div class="mb-3">
+							{{ form_label(form.theme, 'Associated Theme', {'label_attr': {'class': 'font-weight-bold'}}) }}
+							{{ form_widget(form.theme, {'attr': {'class': 'form-control'}}) }}
+							{{ form_errors(form.theme) }}
+						</div>
+
+						<!-- Submit Button -->
+						<div class="d-flex justify-content-between">
+							<button type="submit" class="btn btn-success">
+								<i class="fas fa-plus"></i>
+								Add Course
+							</button>
+							<a href="{{ path('admin_backoffice') }}" class="btn btn-secondary">
+								<i class="fas fa-arrow-left"></i>
+								Back to Back-office
+							</a>
+						</div>
+
+						{{ form_end(form) }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

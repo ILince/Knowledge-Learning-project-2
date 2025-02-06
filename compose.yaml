@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  # MySQL Database Service
+  database:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: knowledge_learning
+    ports:
+      - "3306:3306"
+    volumes:
+      - database_data:/var/lib/mysql
+
+  # MailHog Service for Capturing Emails
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"  # Port SMTP
+      - "8025:8025"  # Interface Web
+    restart: always
+
+volumes:
+  database_data:

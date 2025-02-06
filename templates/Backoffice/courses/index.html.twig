@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Theme</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for course in courses %}
+            <tr>
+                <td>{{ course.id }}</td>
+                <td>{{ course.name }}</td>
+                <td>{{ course.price }}</td>
+                <td>{{ course.theme.name }}</td>
+                <td>
+                    <a href="{{ path('course_show', {'id': course.id}) }}">View</a>
+                    <a href="{{ path('course_edit', {'id': course.id}) }}">Edit</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

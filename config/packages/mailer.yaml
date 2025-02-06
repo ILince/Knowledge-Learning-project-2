@@ -1,0 +1,10 @@
+# Default configuration for the framework
+framework:
+  mailer:
+    dsn: "%env(MAILER_DSN)%"
+
+# Specific configuration for the 'test' environment
+when@test:
+  framework:
+    mailer:
+      dsn: "%env(MAILER_DSN)%"

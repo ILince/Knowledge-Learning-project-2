@@ -1,0 +1,127 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Courses
+{% endblock %}
+
+{% block body %}
+	<h1 class="text-center mb-5" style="color: #00497c;">All Courses</h1>
+
+	<!-- Filter by Theme -->
+	<form method="get" class="mb-4">
+		<div class="row">
+			<div class="col-md-6">
+				<select name="theme" class="form-select" style="border: 1px solid #ccc;">
+					<option value="">Select a Theme</option>
+					{% for theme in themes %}
+						<option value="{{ theme.id }}" {% if theme.id == app.request.get('theme') %} selected {% endif %}>{{ theme.name }}</option>
+					{% endfor %}
+				</select>
+			</div>
+			<div class="col-md-6">
+				<button type="submit" class="btn" style="background-color: #82b864; color: white; border-color: #82b864;">Filter</button>
+			</div>
+		</div>
+	</form>
+
+	<!-- Display Courses -->
+	<div class="row">
+		{% for course in courses %}
+			<div class="col-md-4 mb-4">
+				<div class="card" style="border: 1px solid #e0e0e0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+					<div class="card-header" style="background-color: #f5f5f5; border-bottom: 1px solid #e0e0e0;">
+						<h4 class="card-title" style=" font-weight: 600;">{{ course.name }}</h4>
+					</div>
+					<div class="card-body" style="background-color: #ffffff; color: #333;">
+						<p>
+							<strong>Price:</strong>
+							{{ course.price }}
+							€
+						</p>
+						<p>
+							<strong>Theme:</strong>
+							<span style="color: #82b864;">{{ course.theme.name }}</span>
+						</p>
+
+						<h5 class="mt-3" style="color: #00497c;">Lessons:</h5>
+						<ul>
+							{% for lesson in course.lessons %}
+								<li>
+									<div class="d-flex justify-content-between align-items-center">
+										<span>{{ lesson.name }}
+											-
+											{{ lesson.price }}
+											€</span>
+										<div class="d-flex justify-content-end">
+											{% if app.user %}
+												{% if lesson in app.user.lessons %}
+													<!-- If the user has purchased the lesson, they can view it -->
+													<a href="{{ path('lesson_details', { id: lesson.id }) }}" class="btn btn btn-success btn-sm" style="margin-top: 5px; margin-right: 5px;">
+														View Lesson
+													</a>
+												{% else %}
+													<!-- If the user hasn't purchased, they can add it to the cart -->
+													<form action="{{ path('app_cart_add_to_cart') }}" method="post" class="d-inline">
+														<input type="hidden" name="id" value="{{ lesson.id }}">
+														<input type="hidden" name="type" value="lesson">
+														<button type="submit" class="btn btn-success btn-sm" style=" background-color: #d45a5a; border-color: #d45a5a;margin-top: 5px; margin-right: 5px;">
+															Buy for
+															{{ lesson.price }}
+															€
+														</button>
+													</form>
+												{% endif %}
+											{% else %}
+												<!-- Prompt user to login if not logged in -->
+												<a href="{{ path('app_login') }}" class="btn btn-warning btn-sm" style="margin-top: 5px; margin-right: 5px;">
+													Login to buy
+												</a>
+											{% endif %}
+										</div>
+									</div>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+					<div class="card-footer text-center" style="background-color: #f9f9f9;">
+						<div class="text-center m-4">
+							{% if app.user %}
+								{% if course in app.user.purchasedCourses %}
+									<!-- If the user has purchased the course -->
+									<a href="{{ path('course_details', { id: course.id }) }}" class="btn btn-secondary btn-lg" style="background-color: #4b8e8d; border-color: #4b8e8d; color: white; margin-top: 10px;">
+										View Detail
+									</a>
+								{% else %}
+									<!-- If the user hasn't purchased the course -->
+									<div
+										class="d-flex justify-content-between">
+										<!-- Button to view details -->
+										<a href="{{ path('course_details', { id: course.id }) }}" class="btn btn-secondary btn-lg" style="background-color: #4b8e8d; border-color: #4b8e8d; color: white; margin-top: 10px;">
+											View Detail
+										</a>
+
+										<!-- Button to add to cart (Buy Complete Course) -->
+										<form action="{{ path('app_cart_add_to_cart') }}" method="post" class="d-inline">
+											<input type="hidden" name="id" value="{{ course.id }}">
+											<input type="hidden" name="type" value="course">
+											<button type="submit" class="btn btn-primary btn-lg" style="background-color: #d45a5a; border-color: #d45a5a; color: white; margin-top: 10px;">
+												Buy Complete Course for
+												{{ course.price }}
+												€
+											</button>
+										</form>
+									</div>
+								{% endif %}
+							{% else %}
+								<!-- If the user is not logged in, show login prompt -->
+								<a href="{{ path('app_login') }}" class="btn btn-primary btn-lg" style="background-color: #d45a5a; border-color: #d45a5a; color: white; margin-top: 10px;">
+									Login to buy course
+								</a>
+							{% endif %}
+						</div>
+					</div>
+
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+{% endblock %}

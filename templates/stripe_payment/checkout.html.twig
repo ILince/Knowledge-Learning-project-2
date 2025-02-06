@@ -1,0 +1,110 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Complete Your Order{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <!-- Page Header -->
+    <div class="text-center mb-4">
+        <h1 class="fw-bold" style="color: #00497c;">Complete Your Order</h1>
+        <p class="text-muted">Check the items in your cart before proceeding to checkout.</p>
+        <hr>
+    </div>
+
+    <!-- Cart Items Section -->
+    {% if items|length > 0 %}
+        <div class="cart-items mb-4">
+            <h2 class="mb-3" style="color: #333;">Your Cart</h2>
+            <ul class="list-group">
+                {% for item in items %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span class="cart-item-name">
+                            <strong>{{ item.entity.name }}</strong><br>
+                            <small>{{ item.quantity }} × {{ item.entity.price }} EUR</small>
+                        </span>
+                        <span class="cart-item-total-price text-success fw-bold">{{ item.quantity * item.entity.price }} EUR</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Checkout Button -->
+        <div class="text-center">
+            <button id="checkout-button" class="btn btn-primary btn-lg rounded-pill px-4 py-2">
+                Complete my order
+            </button>
+            <div id="loading" class="mt-3 text-center text-muted" style="display: none;">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Processing...</span>
+                </div>
+                <p>Processing...</p>
+            </div>
+        </div>
+    {% else %}
+        <div class="alert alert-warning text-center" role="alert">
+            Your cart is empty. Add some items to complete your order.
+        </div>
+    {% endif %}
+</div>
+
+<!-- Include Stripe.js -->
+<script src="https://js.stripe.com/v3/"></script>
+
+<script>
+    (function() {
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize Stripe with the public key
+            var stripe = Stripe('{{ stripe_public_key }}');
+
+            // Get the checkout button element
+            var checkoutButton = document.getElementById('checkout-button');
+            if (!checkoutButton) {
+                console.error('Checkout button not found!');
+                return; // Exit if button is not found
+            }
+
+            // Add event listener to the checkout button
+            checkoutButton.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Show the loading indicator
+                document.getElementById('loading').style.display = 'block';
+
+                // Disable the button to prevent multiple clicks
+                checkoutButton.disabled = true;
+
+                // Fetch the checkout session from the server
+                fetch('{{ path('create_checkout_session') }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        items: {{ items|json_encode|raw }} // Cart items data
+                    })
+                })
+                .then(response => response.json())
+                .then(session => {
+                    // Redirect to Stripe Checkout
+                    return stripe.redirectToCheckout({ sessionId: session.id });
+                })
+                .then(result => {
+                    if (result.error) {
+                        // Show error message in case of failure
+                        alert(result.error.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error); // Log any error to the console
+                })
+                .finally(() => {
+                    // Hide the loading indicator and re-enable the button
+                    document.getElementById('loading').style.display = 'none';
+                    checkoutButton.disabled = false;
+                });
+            });
+        });
+    })();
+</script>
+
+{% endblock %}

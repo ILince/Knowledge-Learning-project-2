@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{{ course.name }}
+	- Details
+{% endblock %}
+
+{% block body %}
+	<div
+		class="container mt-5">
+		<!-- Course Title and Details -->
+		<h1 class="text-center" style="color: #00497c; font-weight: 600;">{{ course.name }}</h1>
+		<p>
+			<strong>Price:</strong>
+			{{ course.price|number_format(2, '.', ',') }}
+			€</p>
+		<p>
+			<strong>Theme:</strong>
+			<span style="color: #82b864;">{{ course.theme.name }}</span>
+		</p>
+
+		<!-- Lessons List -->
+		<h3 class="mt-4" style="color: #00497c;">Lessons</h3>
+		{% if course.lessons|length > 0 %}
+			<ul class="list-group mb-4">
+				{% for lesson in course.lessons %}
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<div>
+							<strong>{{ lesson.name }}</strong>
+							<p style="margin: 0; font-size: 0.9em;">{{ lesson.description|default('No description available.') }}</p>
+						</div>
+						<!-- Action Buttons -->
+						{% if user %}
+							{% if lesson in user.lessons %}
+								<a href="{{ path('lesson_details', { id: lesson.id }) }}" class="btn btn-primary btn-sm">
+									<i class="fas fa-eye"></i>
+									View
+								</a>
+							{% else %}
+								<form action="{{ path('app_cart_add_to_cart') }}" method="post">
+									<input type="hidden" name="id" value="{{ lesson.id }}">
+									<input type="hidden" name="type" value="lesson">
+									<button type="submit" class="btn btn-success btn-sm">
+										<i class="fas fa-cart-plus"></i>
+										Buy for
+										{{ lesson.price }}
+										€
+									</button>
+								</form>
+							{% endif %}
+						{% else %}
+							<a href="{{ path('app_login') }}" class="btn btn-warning btn-sm">
+								<i class="fas fa-sign-in-alt"></i>
+								Login to Buy
+							</a>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p class="text-muted">No lessons are available for this course.</p>
+		{% endif %}
+
+		<!-- Action for Complete Course -->
+		<div class="text-center m-4">
+			{% if user %}
+				{% if course not in user.purchasedCourses %}
+					<form action="{{ path('app_cart_add_to_cart') }}" method="post">
+						<input type="hidden" name="id" value="{{ course.id }}">
+						<input type="hidden" name="type" value="course">
+						<button type="submit" class="btn btn-primary btn-lg" style="background-color: #d45a5a; color: white;">
+							Buy Complete Course for
+							{{ course.price|number_format(2, '.', ',') }}
+							€
+						</button>
+					</form>
+				{% endif %}
+			{% else %}
+				<a href="{{ path('app_login') }}" class="btn btn-primary btn-lg" style="background-color: #d45a5a; color: white;">
+					Login to buy course
+				</a>
+			{% endif %}
+		</div>
+	</div>
+
+{% endblock %}

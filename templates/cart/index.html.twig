@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My Cart{% endblock %}
+
+{% block body %}
+<div class="container my-5">
+    <!-- Page Header -->
+    <div class="text-center mb-4">
+        <h1 class="fw-bold" style="color: #00497c;">My Cart</h1>
+        <p class="text-muted">Review the items in your cart before proceeding to checkout.</p>
+        <hr>
+    </div>
+
+    {% if not data %}
+        <!-- Empty Cart Message -->
+        <div class="alert alert-warning text-center">
+            Your cart is empty. Add items to continue shopping.
+        </div>
+    {% else %}
+        <!-- Cart Items -->
+        {% for item in data %}
+            <div class="border border-secondary rounded p-3 mb-4 shadow-sm cart-item">
+                <div class="row align-items-center">
+                    <!-- Placeholder for image -->
+                    <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+                        <img src="https://via.placeholder.com/100" alt="{{ item.entity.name }}" class="img-fluid rounded">
+                    </div>
+                    <!-- Item Details -->
+                    <div class="col-12 col-md-8">
+                        <h5 class="mb-1">{{ item.entity.name }}</h5>
+                        <p class="mb-0 text-muted">Price: {{ item.entity.price | number_format(2, ',', ' ') }} €</p>
+                    </div>
+                    <!-- Remove Button -->
+                    <div class="col-12 col-md-2 text-end">
+                        <a href="{{ path('app_cart_remove', { type: item.entity.type, id: item.entity.id }) }}"
+                           class="btn btn-outline-danger btn-sm rounded-pill"
+                           onclick="return confirm('Are you sure you want to remove this item from your cart?');">
+                            Remove
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <!-- Cart Summary -->
+        <div class="cart-summary mt-5 p-4 border border-secondary rounded shadow-sm">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h4 class="mb-0">Total:</h4>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="text-success fw-bold">{{ total | number_format(2, ',', ' ') }} €</h4>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="{{ path('checkout') }}" id="checkout-button" class="btn btn-primary btn-lg rounded-pill">
+                        Complete My Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

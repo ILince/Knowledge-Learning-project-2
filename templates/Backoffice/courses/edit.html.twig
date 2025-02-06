@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit course:
+	{{ course.name }}
+{% endblock %}
+
+{% block body %}
+	<div class="container mt-5">
+		<h1>Edit course:
+			{{ course.name }}</h1>
+		{{ form_start(form, {'attr': {'onsubmit': 'return confirm("Are you sure you want to add this course?");'}}) }}
+
+		<!-- Course Name Field -->
+		<div class="mb-3">
+			{{ form_label(form.name) }}
+			{{ form_widget(form.name, {'attr': {'class': 'form-control'}}) }}
+			{{ form_errors(form.name) }}
+		</div>
+
+		<!-- Course Price Field -->
+		<div class="mb-3">
+			{{ form_label(form.price) }}
+			{{ form_widget(form.price, {'attr': {'class': 'form-control'}}) }}
+			{{ form_errors(form.price) }}
+		</div>
+
+		<!-- Course Theme Field -->
+		<div class="mb-3">
+			{{ form_label(form.theme) }}
+			{{ form_widget(form.theme, {'attr': {'class': 'form-control'}}) }}
+			{{ form_errors(form.theme) }}
+		</div>
+
+		<div class="mt-4">
+			<button type="submit" class="btn btn-primary">Save Changes</button>
+			<a href="{{ path('admin_backoffice') }}" class="btn btn-secondary ml-2">Back to Back-office</a>
+		</div>
+
+		{{ form_end(form) }}
+	</div>
+{% endblock %}

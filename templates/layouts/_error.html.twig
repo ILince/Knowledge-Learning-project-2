@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Error
+	{{ exception.statusCode }}
+	-
+	{{ exception.statusText }}
+{% endblock %}
+
+{% block body %}
+	<div style="text-align: center; padding: 50px;">
+
+		<h1>HTTP Error
+			{{ exception.statusCode }}</h1>
+
+
+		<p>{{ exception.statusText }}</p>
+
+
+		<a href="{{ path('app_home') }}" class="btn btn-primary">Return to Home</a>
+	</div>
+{% endblock %}
