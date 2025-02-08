@@ -23,6 +23,7 @@ DirectoryIndex index.php
     Options +SymLinksIfOwnerMatch
 
     RewriteEngine On
+    RewriteBase /sites/sf.Knowledge-Learning-project-2.com/public
 
     # Determine the RewriteBase automatically and set it as environment variable.
     # If you are using Apache aliases to do mass virtual hosting or installed the
